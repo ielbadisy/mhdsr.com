@@ -48,7 +48,8 @@ table {
 }
 
 .fiche {
-  max-width: 1080px;
+  width: 96%;
+  max-width: 1600px;
   font-size: 1.05rem !important;
   line-height: 1.55 !important;
 }
