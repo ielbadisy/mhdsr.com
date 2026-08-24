@@ -1,6 +1,13 @@
 # install.packages("ggplot2")
 
 library(ggplot2)
+library(showtext)
+library(sysfonts)
+
+# Match the primary sans-serif used throughout the website.
+font_add_google("Red Hat Text", family = "red_hat_text")
+showtext_auto()
+showtext_opts(dpi = 320)
 
 # -----------------------------
 # Colors (same as biostatlab.org's logo-biostatlab.R, kept identical
@@ -41,17 +48,17 @@ logo <- ggplot(hex, aes(x, y)) +
     label = "MHDSR |>",
     color = text,
     size = 12,
-    family = "mono",
+    family = "red_hat_text",
     fontface = "plain"
   ) +
   annotate(
     "text",
     x = 0.43,
-    y = -0.66,
+    y = -0.645,
     label = "mhdsr.com",
     color = blue,
     size = 7,
-    family = "mono",
+    family = "red_hat_text",
     angle = 30
   ) +
   coord_equal(
