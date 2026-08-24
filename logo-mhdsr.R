@@ -46,8 +46,8 @@ logo <- ggplot(hex, aes(x, y)) +
   ) +
   annotate(
     "text",
-    x = 0.50,
-    y = -0.60,
+    x = 0.43,
+    y = -0.66,
     label = "mhdsr.com",
     color = blue,
     size = 7,
