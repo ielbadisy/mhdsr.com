@@ -1,0 +1,33 @@
+project:
+  render:
+    - index.qmd
+    - courses/index.qmd
+    - courses/biostatr.qmd
+    - courses/ml4hor.qmd
+    - courses/surv4cr.qmd
+    - courses/metar.qmd
+    - about.qmd
+
+website:
+  description: "Methods in Health Data Science with R (MHDSR): live, cohort-based courses in applied biostatistics, machine learning, survival analysis, and meta-analysis, taught in R."
+  navbar:
+    logo: logo_mhdsr.png
+    title: false
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Courses"
+        href: courses/index.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - text: "elbadisyimad.com"
+        href: "https://elbadisyimad.com"
+      - text: "English"
+        menu:
+          - text: "English"
+            href: index.qmd
+          - text: "Fran&ccedil;ais"
+            href: fr/index.html
+  page-footer:
+    left: "&#169; 2026 MHDSR &middot; Methods in Health Data Science with R"

@@ -1,0 +1,109 @@
+---
+title: "Courses"
+pagetitle: "MHDSR - Courses"
+description: "Full catalogue of MHDSR courses, with the next cohort's schedule and pricing."
+page-layout: full
+title-block-banner: false
+---
+
+Four independent, cohort-based courses, self-contained but designed to build on each other into a complete methods pathway. No prerequisite is mandatory, though taking them in order is recommended.
+
+## Next cohort
+
+Enrollment is open. Registration is per course; participants may register for a single course or for all four.
+
+| Course | Focus | Dates |
+|---|---|---|
+| **BIOSTATR** | Applied Biostatistics with R | 07/09 &ndash; 20/09/2026 |
+| **ML4HOR** | Machine Learning for Health Outcomes with R | 21/09 &ndash; 04/10/2026 |
+| **SURV4CR** | Survival Analysis for Clinical Research with R | 05/10 &ndash; 18/10/2026 |
+| **METAR** | Conducting Meta-Analysis with R | 19/10 &ndash; 01/11/2026 |
+
+: {tbl-colwidths="[18,52,30]"}
+
+::: {.course-facts}
+
+::: {.course-fact}
+<span class="course-fact-label">Duration</span>
+<span class="course-fact-value">2 weeks<br>8 sessions &middot; 16 contact hours</span>
+:::
+
+::: {.course-fact}
+<span class="course-fact-label">Schedule</span>
+<span class="course-fact-value">Mon / Wed / Fri &middot; 18h00&ndash;20h00<br>Sunday &middot; 10h00&ndash;12h00<br><small>Morocco time</small></span>
+:::
+
+::: {.course-fact}
+<span class="course-fact-label">Price</span>
+<span class="course-fact-value"><strong>150&euro;</strong> (1500 MAD)<br><small>per course</small></span>
+:::
+
+::: {.course-fact}
+<span class="course-fact-label">Language</span>
+<span class="course-fact-value">Teaching in French<br><small>English statistical and technical terms</small></span>
+:::
+
+:::
+
+To register or ask a question, write to [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com), or [download the cohort announcement (PDF)](../pdfs/BiostatLab-cohort-announcement-2026.pdf) for full details.
+
+## Catalogue
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+## BIOSTATR &ndash; Applied Biostatistics with R
+
+Full analytical workflow for health research: study questions, data types, descriptive statistics, visualization, inference, regression, survival analysis, diagnostic accuracy, missing data, causal thinking, and reproducible reporting with Quarto. No statistics background required.
+
+[Full training sheet &rarr;](biostatr.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+## ML4HOR &ndash; Machine Learning for Health Outcomes with R
+
+Complete supervised learning workflow, plus clustering for patient phenotyping and subgroup discovery. Emphasis on validation, leakage prevention, calibration, interpretability, and clinical relevance.
+
+[Full training sheet &rarr;](ml4hor.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+## SURV4CR &ndash; Survival Analysis for Clinical Research with R
+
+Full time-to-event workflow: censoring, Kaplan-Meier, log-rank tests, Cox regression, proportional hazards diagnostics, competing risks, RMST, survival machine learning, and temporal phenotyping.
+
+[Full training sheet &rarr;](surv4cr.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+## METAR &ndash; Conducting Meta-Analysis with R
+
+Complete evidence-synthesis workflow: review question, extraction table, effect sizes, fixed- and random-effects models, heterogeneity, forest plots, moderators, publication bias, and certainty of evidence.
+
+[Full training sheet &rarr;](metar.qmd)
+
+:::
+
+:::
+<!-- end grid -->
+
+## FAQ
+
+**Can I take just one course?**
+Yes, each course is self-contained and registered/paid separately.
+
+**Do I need to know R already?**
+No, not for **BIOSTATR**. The other courses recommend it as preparation but don't require it.
+
+**What language is it taught in?**
+French, with English for statistical and technical terms.
+
+**How do I register?**
+Email [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) with your name and chosen course(s).

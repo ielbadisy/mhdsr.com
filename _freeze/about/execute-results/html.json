@@ -1,0 +1,21 @@
+{
+  "hash": "28c1292a56d8a8e882b551ee426069a8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"About\"\npagetitle: \"MHDSR - About\"\ndescription: \"About MHDSR and its instructor.\"\npage-layout: full\ntitle-block-banner: false\nexecute:\n  echo: false\n  warning: false\n  freeze: auto\n---\n\n## MHDSR\n\n**What.** MHDSR (Methods in Health Data Science with R) is a live, cohort-based training pathway in applied biostatistics, machine learning, survival analysis, and evidence synthesis, taught in R with reproducible Quarto workflows. It comprises four courses, **BIOSTATR**, **ML4HOR**, **SURV4CR**, and **METAR**, that can be taken independently or followed as a complete pathway.\n\n\n::: {.cell}\n::: {#fig-pathway .cell-output-display}\n\n```{=html}\n<div class=\"grViz html-widget html-fill-item\" id=\"htmlwidget-aad1ab51496681cdb3d2\" style=\"width:100%;height:480px;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-aad1ab51496681cdb3d2\">{\"x\":{\"diagram\":\"\\ndigraph mhdsr_pathway {\\n\\n  graph [layout = dot, rankdir = LR, bgcolor = transparent, nodesep = 0.5, ranksep = 0.8]\\n  node [shape = box, style = \\\"filled,rounded\\\", fontname = \\\"Helvetica\\\", fontsize = 13,\\n        color = \\\"#C2410C\\\", fillcolor = \\\"#FFEDD5\\\", fontcolor = \\\"#111827\\\", penwidth = 1.4]\\n  edge [color = \\\"#0284C7\\\", penwidth = 1.2, arrowsize = 0.8]\\n\\n  BIOSTATR [label = \\\"BIOSTATR\\\\nFoundations\\\"]\\n  ML4HOR   [label = \\\"ML4HOR\\\\nPrediction\\\"]\\n  SURV4CR  [label = \\\"SURV4CR\\\\nTime-to-event\\\"]\\n  METAR    [label = \\\"METAR\\\\nEvidence synthesis\\\"]\\n\\n  {rank = same; BIOSTATR; ML4HOR; SURV4CR; METAR}\\n\\n  BIOSTATR -> ML4HOR -> SURV4CR -> METAR\\n}\\n\",\"config\":{\"engine\":\"dot\",\"options\":null}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n\nThe MHDSR pathway\n:::\n:::\n\n\nEach course can be taken independently (no prerequisite is mandatory), but the order above is recommended for participants building comprehensive mastery.\n\n::: {.grid}\n\n::: {.g-col-12 .g-col-md-4}\n**{{< fa bullseye >}} Why**\n\nHealth researchers are often taught statistics and R as separate subjects, disconnected from the reproducible workflows expected in publication and clinical practice. MHDSR closes that gap: every course pairs the underlying methodology with a hands-on R implementation and ends with a reproducible Quarto report.\n:::\n\n::: {.g-col-12 .g-col-md-4}\n**{{< fa users >}} Who it's for**\n\nClinicians, researchers, PhD students, public health professionals, and analysts who want a rigorous, hands-on introduction to modern health data analysis in R. No advanced statistics background is required for **BIOSTATR**; the other three courses build on it but can be taken independently.\n:::\n\n::: {.g-col-12 .g-col-md-4}\n**{{< fa clipboard-list >}} What you get**\n\nLive sessions, slides, notebooks, datasets, and exercises for every session, with direct feedback in a small cohort, ending in a short reproducible Quarto mini-project.\n:::\n\n:::\n<!-- end grid -->\n\n[See the full catalogue &rarr;](courses/index.qmd)\n\n## The Instructor\n\nMHDSR is designed and taught by **Imad El Badisy, PhD**, Research Engineer in Health Data Science.\n\n[Read the full profile at elbadisyimad.com &rarr;](https://elbadisyimad.com)\n\n## Contact\n\nFor registration, questions about a course, or group/custom training requests: [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com)\n",
+    "supporting": [
+      "about_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<script src=\"site_libs/viz-1.8.2/viz.js\"></script>\n<link href=\"site_libs/DiagrammeR-styles-0.2/styles.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/grViz-binding-1.0.11/grViz.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

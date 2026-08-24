@@ -1,0 +1,6 @@
+.quarto/
+Rplots.pdf
+*-check.png
+
+/.quarto/
+**/*.quarto_ipynb

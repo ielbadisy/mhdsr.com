@@ -1,0 +1,110 @@
+---
+title: "Cours"
+pagetitle: "MHDSR - Cours"
+lang: fr
+description: "Catalogue complet des cours MHDSR, avec le calendrier et les tarifs de la prochaine cohorte."
+page-layout: full
+title-block-banner: false
+---
+
+Quatre cours ind&eacute;pendants, en cohorte, autonomes mais con&ccedil;us pour s'appuyer les uns sur les autres et former un parcours m&eacute;thodologique complet. Aucun pr&eacute;requis n'est obligatoire, bien que suivre l'ordre ci-dessous soit recommand&eacute;.
+
+## Prochaine cohorte
+
+Les inscriptions sont ouvertes. L'inscription se fait par cours ; les participants peuvent s'inscrire &agrave; un seul cours ou aux quatre.
+
+| Cours | Th&eacute;matique | Dates |
+|---|---|---|
+| **BIOSTATR** | Biostatistique appliqu&eacute;e avec R | 07/09 &ndash; 20/09/2026 |
+| **ML4HOR** | Apprentissage automatique pour les r&eacute;sultats de sant&eacute; avec R | 21/09 &ndash; 04/10/2026 |
+| **SURV4CR** | Analyse de survie pour la recherche clinique avec R | 05/10 &ndash; 18/10/2026 |
+| **METAR** | Conduite d'une m&eacute;ta-analyse avec R | 19/10 &ndash; 01/11/2026 |
+
+: {tbl-colwidths="[18,52,30]"}
+
+::: {.course-facts}
+
+::: {.course-fact}
+<span class="course-fact-label">Dur&eacute;e</span>
+<span class="course-fact-value">2 semaines<br>8 s&eacute;ances &middot; 16 heures de contact</span>
+:::
+
+::: {.course-fact}
+<span class="course-fact-label">Horaires</span>
+<span class="course-fact-value">Lun / mer / ven &middot; 18h00&ndash;20h00<br>Dimanche &middot; 10h00&ndash;12h00<br><small>Heure du Maroc (GMT+1)</small></span>
+:::
+
+::: {.course-fact}
+<span class="course-fact-label">Tarif</span>
+<span class="course-fact-value"><strong>150&euro;</strong> (1500 MAD)<br><small>par cours</small></span>
+:::
+
+::: {.course-fact}
+<span class="course-fact-label">Langue</span>
+<span class="course-fact-value">Enseignement en fran&ccedil;ais<br><small>Supports en anglais</small></span>
+:::
+
+:::
+
+Pour vous inscrire ou poser une question, &eacute;crivez &agrave; [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com), ou [t&eacute;l&eacute;chargez l'annonce de la cohorte (PDF)](../../pdfs/BiostatLab-cohort-announcement-2026.pdf) pour tous les d&eacute;tails.
+
+## Catalogue
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+## BIOSTATR &ndash; Biostatistique appliqu&eacute;e avec R
+
+Flux d'analyse complet pour la recherche en sant&eacute; : questions d'&eacute;tude, types de donn&eacute;es, statistiques descriptives, visualisation, inf&eacute;rence, r&eacute;gression, analyse de survie, pr&eacute;cision diagnostique, donn&eacute;es manquantes, raisonnement causal, et rapport reproductible avec Quarto. Aucune connaissance pr&eacute;alable en statistique requise.
+
+[Fiche compl&egrave;te du cours &rarr;](biostatr.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+## ML4HOR &ndash; Apprentissage automatique pour les r&eacute;sultats de sant&eacute; avec R
+
+Flux complet d'apprentissage supervis&eacute;, ainsi que le clustering pour le ph&eacute;notypage des patients et la d&eacute;couverte de sous-groupes. Accent sur la validation, la pr&eacute;vention des fuites de donn&eacute;es, la calibration, l'interpr&eacute;tabilit&eacute; et la pertinence clinique.
+
+[Fiche compl&egrave;te du cours &rarr;](ml4hor.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+## SURV4CR &ndash; Analyse de survie pour la recherche clinique avec R
+
+Flux complet d'analyse de survie : censure, Kaplan-Meier, tests du log-rank, r&eacute;gression de Cox, diagnostics des risques proportionnels, risques concurrents, RMST, apprentissage automatique de survie, et ph&eacute;notypage temporel.
+
+[Fiche compl&egrave;te du cours &rarr;](surv4cr.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+## METAR &ndash; Conduite d'une m&eacute;ta-analyse avec R
+
+Flux complet de synth&egrave;se de donn&eacute;es probantes : question de revue, table d'extraction, tailles d'effet, mod&egrave;les &agrave; effets fixes et al&eacute;atoires, h&eacute;t&eacute;rog&eacute;n&eacute;it&eacute;, forest plots, mod&eacute;rateurs, biais de publication, et niveau de certitude des preuves.
+
+[Fiche compl&egrave;te du cours &rarr;](metar.qmd)
+
+:::
+
+:::
+<!-- end grid -->
+
+## FAQ
+
+**Puis-je suivre un seul cours ?**
+Oui, chaque cours est autonome et s'inscrit/se paie s&eacute;par&eacute;ment.
+
+**Dois-je d&eacute;j&agrave; conna&icirc;tre R ?**
+Non, pas pour **BIOSTATR**. Les autres cours le recommandent comme pr&eacute;paration, sans l'exiger.
+
+**En quelle langue est-ce enseign&eacute; ?**
+En fran&ccedil;ais, avec l'anglais pour les termes statistiques et techniques.
+
+**Comment s'inscrire ?**
+&Eacute;crivez &agrave; [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) avec votre nom et le(s) cours choisi(s).

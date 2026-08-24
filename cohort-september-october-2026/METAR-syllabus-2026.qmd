@@ -1,0 +1,99 @@
+---
+title: "METAR: Conducting Meta-Analysis with R"
+subtitle: "Full Program, October 2026 Cohort"
+author: "Imad EL BADISY, PhD"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+    include-in-header:
+      text: |
+        \usepackage{amsmath}
+        \usepackage{graphicx}
+        \usepackage{booktabs}
+        \usepackage{hyperref}
+        \usepackage{geometry}
+        \geometry{margin=2.5cm}
+        \usepackage{array}
+        \usepackage{xcolor}
+        \usepackage{enumitem}
+        \setlength{\tabcolsep}{3pt}
+        \renewcommand{\arraystretch}{1.12}
+---
+
+# Course Overview
+
+**Title:** Conducting Meta-Analysis with R\
+**Format:** Online, cohort-based\
+**Duration:** 2 weeks, 8 sessions, 2 hours per session, 16 contact hours\
+**Dates:** 19/10/2026 – 01/11/2026\
+**Days:** Monday, Wednesday, Friday (18h00 to 20h00), Sunday (10h00 to 12h00)\
+**Time:** Morocco time\
+**Price:** 150€ (1500 MAD)\
+**Instructor:** Imad EL BADISY, PhD\
+**Contact:** [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) | [elbadisyimad.com](https://elbadisyimad.com)
+
+## Course Description
+
+`METAR` provides a practical and methodologically rigorous introduction to conducting meta-analysis with R. It covers the complete evidence-synthesis workflow: formulating a review question, developing an analysis-ready extraction table, computing effect sizes, fitting fixed-effect and random-effects models, assessing heterogeneity, producing forest plots, exploring moderators, assessing publication bias, evaluating certainty of evidence, and preparing a reproducible Quarto report.
+
+The course emphasizes transparent reporting, correct interpretation of pooled estimates, reproducible analysis, and publication-quality tables and figures.
+
+## Target Audience
+
+Clinicians, researchers, PhD students, public health professionals, and evidence synthesis analysts. Basic epidemiology or clinical research experience recommended.
+
+## Prerequisites
+
+Basic familiarity with R (as covered in `BIOSTATR`) is recommended but not mandatory.
+
+## Learning Objectives
+
+By the end of `METAR`, participants will be able to:
+
+1. formulate a meta-analysis question using the PICO framework;
+2. structure extracted study data for analysis in R;
+3. compute effect sizes for binary and continuous outcomes;
+4. fit fixed-effect and random-effects meta-analysis models;
+5. quantify and explore heterogeneity using Q, I², and tau²;
+6. produce publication-quality forest plots;
+7. conduct subgroup analysis and meta-regression;
+8. assess small-study effects and publication bias;
+9. summarize risk of bias and certainty of evidence;
+10. produce a reproducible meta-analysis report with Quarto.
+
+# Detailed Schedule
+
+| No. | Week | Date | Time | Topic | Main Content |
+|---:|---|---|---|---|---|
+| 1 | 1 | 19/10/2026 (Mon) | 18h00-20h00 | Intro to Systematic Reviews & Meta-Analysis, Protocol and Search Strategy | Evidence hierarchy, PICO, PRISMA workflow, review protocol, eligibility criteria, search strategy, screening |
+| 2 | 1 | 21/10/2026 (Wed) | 18h00-20h00 | Data Extraction, Risk of Bias & Preparing Data in R | Extraction tables, risk-of-bias variables, `robvis`, importing/cleaning data, unit harmonization, consistency checks |
+| 3 | 1 | 23/10/2026 (Fri) | 18h00-20h00 | Effect Sizes for Binary and Continuous Outcomes | Odds ratio, risk ratio, risk difference, mean difference, standardized mean difference, Hedges' g |
+| 4 | 1 | 25/10/2026 (Sun) | 10h00-12h00 | Fixed-Effect and Random-Effects Models | Inverse-variance weighting, common-effect model, DerSimonian-Laird, REML, Paule-Mandel, prediction intervals |
+| 5 | 2 | 26/10/2026 (Mon) | 18h00-20h00 | Heterogeneity and Sensitivity Analysis | Cochran's Q, I², tau², heterogeneity CIs, Baujat plots, leave-one-out analysis, influence diagnostics |
+| 6 | 2 | 28/10/2026 (Wed) | 18h00-20h00 | Forest Plots and Result Interpretation | Forest plot anatomy, study weights, summary diamond, prediction interval, subgroup forest plots |
+| 7 | 2 | 30/10/2026 (Fri) | 18h00-20h00 | Subgroup Analysis, Meta-Regression, Publication Bias & Certainty of Evidence | Meta-regression, bubble plots, funnel plots, Egger/Begg/Peters tests, trim-and-fill, GRADE overview |
+| 8 | 2 | 01/11/2026 (Sun) | 10h00-12h00 | Reproducible Reporting and Final Project | Quarto report, PRISMA diagram, risk-of-bias plot, effect-size table, forest plot |
+
+: `METAR` detailed schedule {tbl-colwidths="[4, 5, 12, 9, 27, 43]"}
+
+# Course Materials
+
+- Slides and self-contained notebooks distributed before each session
+- R scripts, datasets, and exercises (shared repository)
+- Exercises reviewed and corrected during sessions
+
+# Assessment
+
+Each course ends with a short reproducible Quarto report or mini-project, presented and discussed in Session 8.
+
+# About the Instructor
+
+Imad EL BADISY, PhD, is a biostatistician working on statistical and machine learning methods for health data, with a focus on survival analysis. Full profile, publications, and R packages: [elbadisyimad.com](https://elbadisyimad.com)
+
+# Policies
+
+**Language:** Teaching in French, with English for statistical and methodological terminology.\
+**Software:** R ($\geq$ 4.4) and RStudio required.\
+**Attendance:** Full attendance at all 8 sessions is recommended given the cumulative structure.

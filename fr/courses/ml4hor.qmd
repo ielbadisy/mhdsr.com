@@ -1,0 +1,93 @@
+---
+title: "ML4HOR"
+pagetitle: "ML4HOR - Apprentissage automatique pour les r&eacute;sultats de sant&eacute; avec R"
+lang: fr
+description: "Apprentissage automatique pour les r&eacute;sultats de sant&eacute; avec R"
+page-layout: full
+title-block-banner: false
+css:
+  - ../../assets/imad/fiche.css
+resources:
+  - ../../assets/imad/fiche.css
+---
+
+::: {.fiche}
+
+::: {.fiche-header}
+<div>
+  <p class="fiche-code">ML4HOR</p>
+  <p class="fiche-title">Apprentissage automatique pour les r&eacute;sultats de sant&eacute; avec R<span class="fiche-tag">Pr&eacute;diction</span></p>
+</div>
+<div class="fiche-meta">
+  <span>{{< fa clock >}} 16 heures &middot; 8 s&eacute;ances</span>
+  <span>{{< fa calendar >}} 21/09 &ndash; 04/10/2026</span>
+  <span>{{< fa euro-sign >}} 150&euro; (1500 MAD)</span>
+</div>
+:::
+
+::: {.fiche-grid}
+
+::: {}
+
+### Description du cours
+
+**ML4HOR** offre une introduction pratique &agrave; l'apprentissage automatique pour la recherche sur les r&eacute;sultats de sant&eacute; avec R. Le cours couvre le flux complet d'apprentissage supervis&eacute; et explore le clustering comme extension finale pour le ph&eacute;notypage des patients, la d&eacute;couverte de sous-groupes, et l'analyse exploratoire des donn&eacute;es de sant&eacute;.
+
+Le cours met l'accent sur la validation, la pr&eacute;vention des fuites de donn&eacute;es, les mesures de performance appropri&eacute;es, la calibration, l'interpr&eacute;tabilit&eacute;, la pertinence clinique, et le rapport reproductible.
+
+### Objectifs d'apprentissage
+
+&Agrave; l'issue de **ML4HOR**, les participants seront capables de :
+
+1. formuler des questions d'apprentissage automatique en recherche sur les r&eacute;sultats de sant&eacute; ;
+2. pr&eacute;parer des jeux de donn&eacute;es tabulaires de sant&eacute; pour l'analyse ML ;
+3. ajuster des mod&egrave;les supervis&eacute;s ;
+4. &eacute;valuer des mod&egrave;les par validation par r&eacute;&eacute;chantillonnage ;
+5. r&eacute;gler et comparer les mod&egrave;les de mani&egrave;re &eacute;quitable ;
+6. &eacute;valuer la discrimination, la calibration et l'utilit&eacute; clinique ;
+7. interpr&eacute;ter les mod&egrave;les ML avec des m&eacute;thodes d'explication globales et locales ;
+8. appliquer le clustering au ph&eacute;notypage des patients et &agrave; la d&eacute;couverte de sous-groupes ;
+9. distinguer pr&eacute;diction, clustering et estimation causale ;
+10. produire un rapport ML reproductible avec Quarto.
+
+:::
+
+::: {}
+
+### Calendrier
+
+<table class="fiche-schedule">
+<tr><th>N&deg;</th><th>Sujet</th></tr>
+<tr><td>1</td><td>Introduction au ML pour les r&eacute;sultats de sant&eacute; &amp; flux de travail R/Quarto</td></tr>
+<tr><td>2</td><td>R&eacute;&eacute;chantillonnage et mesures de performance</td></tr>
+<tr><td>3</td><td>Mod&egrave;les lin&eacute;aires et r&eacute;gularis&eacute;s</td></tr>
+<tr><td>4</td><td>Arbres, for&ecirc;ts al&eacute;atoires, boosting &amp; ensembles</td></tr>
+<tr><td>5</td><td>R&eacute;glage des hyperparam&egrave;tres, s&eacute;lection et comparaison de mod&egrave;les</td></tr>
+<tr><td>6</td><td>Calibration et utilit&eacute; clinique</td></tr>
+<tr><td>7</td><td>Interpr&eacute;tation des mod&egrave;les, explicabilit&eacute; &amp; clustering pour le ph&eacute;notypage</td></tr>
+<tr><td>8</td><td>Pipeline ML de bout en bout et mini-projet</td></tr>
+</table>
+
+### Informations pratiques
+
+<div class="fiche-info">
+<dl>
+<dt>Public</dt><dd>Chercheurs, doctorants, cliniciens, professionnels de la sant&eacute; publique, analystes de donn&eacute;es</dd>
+<dt>Pr&eacute;requis</dt><dd>R de base et culture statistique recommand&eacute;s, comme couvert dans [**BIOSTATR**](biostatr.qmd)</dd>
+<dt>Format</dt><dd>S&eacute;ances en direct, diapositives, notebooks, jeux de donn&eacute;es, exercices</dd>
+<dt>Horaire</dt><dd>Lun/mer/ven 18h00&ndash;20h00, dim 10h00&ndash;12h00 (heure du Maroc)</dd>
+<dt>Outils</dt><dd>R, RStudio, Quarto</dd>
+<dt>&Eacute;valuation</dt><dd>Mini-projet Quarto reproductible</dd>
+<dt>&Eacute;tape suivante</dt><dd>[**SURV4CR**](surv4cr.qmd) ou [**METAR**](metar.qmd)</dd>
+</dl>
+</div>
+
+:::
+
+:::
+
+::: {.fiche-footer}
+MHDSR &middot; Formateur : Imad El Badisy, PhD &middot; [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) <span class="no-print">&middot; [S'inscrire &rarr;](mailto:elbadisyimad@gmail.com?subject=ML4HOR%20-%20Inscription) &middot; [&larr; Retour au catalogue](index.qmd)</span>
+:::
+
+:::

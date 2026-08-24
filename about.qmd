@@ -1,0 +1,79 @@
+---
+title: "About"
+pagetitle: "MHDSR - About"
+description: "About MHDSR and its instructor."
+page-layout: full
+title-block-banner: false
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+---
+
+## MHDSR
+
+**What.** MHDSR (Methods in Health Data Science with R) is a live, cohort-based training pathway in applied biostatistics, machine learning, survival analysis, and evidence synthesis, taught in R with reproducible Quarto workflows. It comprises four courses, **BIOSTATR**, **ML4HOR**, **SURV4CR**, and **METAR**, that can be taken independently or followed as a complete pathway.
+
+```{r}
+#| label: fig-pathway
+#| fig-cap: "The MHDSR pathway"
+#| out-width: "100%"
+
+library(DiagrammeR)
+
+grViz("
+digraph mhdsr_pathway {
+
+  graph [layout = dot, rankdir = LR, bgcolor = transparent, nodesep = 0.5, ranksep = 0.8]
+  node [shape = box, style = 'filled,rounded', fontname = 'Helvetica', fontsize = 13,
+        color = '#C2410C', fillcolor = '#FFEDD5', fontcolor = '#111827', penwidth = 1.4]
+  edge [color = '#0284C7', penwidth = 1.2, arrowsize = 0.8]
+
+  BIOSTATR [label = 'BIOSTATR\\nFoundations']
+  ML4HOR   [label = 'ML4HOR\\nPrediction']
+  SURV4CR  [label = 'SURV4CR\\nTime-to-event']
+  METAR    [label = 'METAR\\nEvidence synthesis']
+
+  {rank = same; BIOSTATR; ML4HOR; SURV4CR; METAR}
+
+  BIOSTATR -> ML4HOR -> SURV4CR -> METAR
+}
+")
+```
+
+Each course can be taken independently (no prerequisite is mandatory), but the order above is recommended for participants building comprehensive mastery.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+**{{< fa bullseye >}} Why**
+
+Health researchers are often taught statistics and R as separate subjects, disconnected from the reproducible workflows expected in publication and clinical practice. MHDSR closes that gap: every course pairs the underlying methodology with a hands-on R implementation and ends with a reproducible Quarto report.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**{{< fa users >}} Who it's for**
+
+Clinicians, researchers, PhD students, public health professionals, and analysts who want a rigorous, hands-on introduction to modern health data analysis in R. No advanced statistics background is required for **BIOSTATR**; the other three courses build on it but can be taken independently.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**{{< fa clipboard-list >}} What you get**
+
+Live sessions, slides, notebooks, datasets, and exercises for every session, with direct feedback in a small cohort, ending in a short reproducible Quarto mini-project.
+:::
+
+:::
+<!-- end grid -->
+
+[See the full catalogue &rarr;](courses/index.qmd)
+
+## The Instructor
+
+MHDSR is designed and taught by **Imad El Badisy, PhD**, Research Engineer in Health Data Science.
+
+[Read the full profile at elbadisyimad.com &rarr;](https://elbadisyimad.com)
+
+## Contact
+
+For registration, questions about a course, or group/custom training requests: [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com)

@@ -1,0 +1,92 @@
+---
+title: "SURV4CR"
+pagetitle: "SURV4CR - Analyse de survie pour la recherche clinique avec R"
+lang: fr
+description: "Analyse de survie pour la recherche clinique avec R"
+page-layout: full
+title-block-banner: false
+css:
+  - ../../assets/imad/fiche.css
+resources:
+  - ../../assets/imad/fiche.css
+---
+
+::: {.fiche}
+
+::: {.fiche-header}
+<div>
+  <p class="fiche-code">SURV4CR</p>
+  <p class="fiche-title">Analyse de survie pour la recherche clinique avec R<span class="fiche-tag">&Eacute;v&eacute;nements/temps</span></p>
+</div>
+<div class="fiche-meta">
+  <span>{{< fa clock >}} 16 heures &middot; 8 s&eacute;ances</span>
+  <span>{{< fa calendar >}} 05/10 &ndash; 18/10/2026</span>
+  <span>{{< fa euro-sign >}} 150&euro; (1500 MAD)</span>
+</div>
+:::
+
+::: {.fiche-grid}
+
+::: {}
+
+### Description du cours
+
+**SURV4CR** offre une introduction pratique et m&eacute;thodologiquement rigoureuse &agrave; l'analyse de survie pour la recherche clinique avec R. Il couvre le flux complet d'analyse des donn&eacute;es de survie : structure des donn&eacute;es, censure, estimation de Kaplan-Meier, tests du log-rank, r&eacute;gression de Cox, diagnostics des risques proportionnels, risques concurrents, RMST, apprentissage automatique de survie, RMST dynamique, et ph&eacute;notypage temporel.
+
+Le cours met l'accent sur l'interpr&eacute;tation clinique, la gestion correcte de la censure, les hypoth&egrave;ses des mod&egrave;les, la reproductibilit&eacute;, et l'utilisation responsable de l'apprentissage automatique pour les donn&eacute;es de survie.
+
+### Objectifs d'apprentissage
+
+&Agrave; l'issue de **SURV4CR**, les participants seront capables de :
+
+1. d&eacute;finir l'origine temporelle, l'&eacute;v&eacute;nement, le temps de suivi et le m&eacute;canisme de censure ;
+2. structurer des donn&eacute;es de survie avec R ;
+3. estimer et interpr&eacute;ter les courbes de Kaplan-Meier et r&eacute;aliser des tests du log-rank ;
+4. ajuster et &eacute;valuer des mod&egrave;les de Cox &agrave; risques proportionnels, y compris diagnostics et extensions ;
+5. analyser les risques concurrents avec l'incidence cumul&eacute;e et les mod&egrave;les de Fine-Gray ;
+6. utiliser la RMST comme estimande de survie cliniquement interpr&eacute;table ;
+7. ajuster, &eacute;valuer et interpr&eacute;ter des mod&egrave;les d'apprentissage automatique de survie ;
+8. calculer des courbes de RMST dynamique et appliquer le clustering temporel pour le ph&eacute;notypage de survie ;
+9. produire un rapport d'analyse de survie reproductible.
+
+:::
+
+::: {}
+
+### Calendrier
+
+<table class="fiche-schedule">
+<tr><th>N&deg;</th><th>Sujet</th></tr>
+<tr><td>1</td><td>Structure des donn&eacute;es de survie, plan d'&eacute;tude &amp; Kaplan-Meier/log-rank</td></tr>
+<tr><td>2</td><td>Mod&egrave;le de Cox &agrave; risques proportionnels</td></tr>
+<tr><td>3</td><td>Extensions du mod&egrave;le de Cox (stratifi&eacute;, covariables d&eacute;pendantes du temps, fragilit&eacute;)</td></tr>
+<tr><td>4</td><td>Risques concurrents et mod&egrave;les param&eacute;triques flexibles</td></tr>
+<tr><td>5</td><td>La RMST comme estimande clinique</td></tr>
+<tr><td>6</td><td>ML de survie : fondations, &eacute;valuation &amp; r&eacute;glage</td></tr>
+<tr><td>7</td><td>Interpr&eacute;tation du ML de survie, RMST dynamique &amp; ph&eacute;notypage temporel</td></tr>
+<tr><td>8</td><td>Projet d'analyse de survie de bout en bout</td></tr>
+</table>
+
+### Informations pratiques
+
+<div class="fiche-info">
+<dl>
+<dt>Public</dt><dd>Cliniciens, chercheurs cliniques, &eacute;pid&eacute;miologistes, doctorants, analystes travaillant avec des donn&eacute;es de suivi</dd>
+<dt>Pr&eacute;requis</dt><dd>R de base et r&eacute;gression recommand&eacute;s, comme couvert dans [**BIOSTATR**](biostatr.qmd)</dd>
+<dt>Format</dt><dd>S&eacute;ances en direct, diapositives, notebooks, jeux de donn&eacute;es, exercices</dd>
+<dt>Horaire</dt><dd>Lun/mer/ven 18h00&ndash;20h00, dim 10h00&ndash;12h00 (heure du Maroc)</dd>
+<dt>Outils</dt><dd>R, RStudio, Quarto</dd>
+<dt>&Eacute;valuation</dt><dd>Mini-projet Quarto reproductible</dd>
+<dt>&Eacute;tape suivante</dt><dd>[**METAR**](metar.qmd)</dd>
+</dl>
+</div>
+
+:::
+
+:::
+
+::: {.fiche-footer}
+MHDSR &middot; Formateur : Imad El Badisy, PhD &middot; [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) <span class="no-print">&middot; [S'inscrire &rarr;](mailto:elbadisyimad@gmail.com?subject=SURV4CR%20-%20Inscription) &middot; [&larr; Retour au catalogue](index.qmd)</span>
+:::
+
+:::

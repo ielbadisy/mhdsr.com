@@ -1,0 +1,22 @@
+---
+title: "MHDSR"
+pagetitle: "MHDSR - Méthodes en science des données de santé avec R"
+lang: fr
+description: "Formations en cohorte, en direct, en biostatistique appliquée et en apprentissage automatique pour la recherche en santé, en R."
+page-layout: full
+title-block-banner: false
+---
+
+**Méthodes en science des données de santé avec R (MHDSR)** est un parcours de formation en direct, en cohorte, couvrant la biostatistique appliquée, l'apprentissage automatique, l'analyse de survie et la synthèse de données probantes, enseigné en R avec des flux de travail reproductibles sous Quarto.
+
+<div class="announcement">
+Les inscriptions sont ouvertes pour la cohorte de septembre&ndash;octobre 2026. Pour vous inscrire, écrivez &agrave; [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com?subject=MHDSR%20-%20Inscription%2FInt%C3%A9r%C3%AAt) avec votre nom et le(s) cours choisi(s). [Voir le catalogue complet &rarr;](courses/index.qmd)
+</div>
+
+## Structure du parcours
+
+Le parcours MHDSR accompagne les participants depuis la biostatistique appliquée jusqu'&agrave; la pr&eacute;diction, l'analyse de survie et la synth&egrave;se de donn&eacute;es probantes. **BIOSTATR** pose les fondations : plan d'&eacute;tude, statistiques descriptives, inf&eacute;rence, r&eacute;gression, bases de la survie et flux de travail reproductible R/Quarto. **ML4HOR** poursuit avec la pr&eacute;diction, la validation et l'interpr&eacute;tabilit&eacute;. **SURV4CR** &eacute;tend cela au flux complet d'analyse de survie pour la recherche clinique. **METAR** cl&ocirc;t le parcours avec la synth&egrave;se de donn&eacute;es probantes et l'inf&eacute;rence combin&eacute;e entre &eacute;tudes.
+
+Chaque cours peut &ecirc;tre suivi ind&eacute;pendamment (aucun pr&eacute;requis n'est obligatoire), mais l'ordre ci-dessus est recommand&eacute; pour les participants souhaitant une ma&icirc;trise compl&egrave;te.
+
+`BIOSTATR` &rarr; `ML4HOR` &rarr; `SURV4CR` &rarr; `METAR`. [Parcourir le catalogue complet, le calendrier et les tarifs &rarr;](courses/index.qmd)

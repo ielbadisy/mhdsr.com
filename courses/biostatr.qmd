@@ -1,0 +1,92 @@
+---
+title: "BIOSTATR"
+pagetitle: "BIOSTATR - Applied Biostatistics with R"
+description: "Applied Biostatistics with R"
+page-layout: full
+title-block-banner: false
+css:
+  - ../assets/imad/fiche.css
+resources:
+  - ../assets/imad/fiche.css
+---
+
+::: {.fiche}
+
+::: {.fiche-header}
+<div>
+  <p class="fiche-code">BIOSTATR</p>
+  <p class="fiche-title">Applied Biostatistics with R<span class="fiche-tag">Foundations</span></p>
+</div>
+<div class="fiche-meta">
+  <span>{{< fa clock >}} 16 hours &middot; 8 sessions</span>
+  <span>{{< fa calendar >}} 07/09 &ndash; 20/09/2026</span>
+  <span>{{< fa euro-sign >}} 150&euro; (1500 MAD)</span>
+</div>
+:::
+
+::: {.fiche-grid}
+
+::: {}
+
+### Course description
+
+**BIOSTATR** is the entry point of the MHDSR pathway: a practical, rigorous introduction to applied biostatistics for health research using R. It gives participants the foundations everyone else builds on (study design, descriptive statistics, inference, regression, survival analysis, and reproducible reporting) before they move on to **ML4HOR**, **SURV4CR**, or **METAR**.
+
+The course emphasizes estimation, interpretation, reproducibility, and appropriate use of statistical methods in clinical research.
+
+### Learning objectives
+
+By the end of **BIOSTATR**, participants will be able to:
+
+1. formulate health research questions in statistical terms;
+2. identify study designs and variable types;
+3. organize reproducible analyses using R and Quarto;
+4. summarize and visualize health data appropriately;
+5. interpret confidence intervals, p-values, and effect estimates;
+6. compare groups using suitable statistical tests;
+7. fit and interpret linear and logistic regression models;
+8. understand the basics of survival analysis and diagnostic accuracy;
+9. recognize issues related to missing data and causal thinking;
+10. produce a reproducible statistical report.
+
+:::
+
+::: {}
+
+### Schedule
+
+<table class="fiche-schedule">
+<tr><th>No.</th><th>Topic</th></tr>
+<tr><td>1</td><td>Introduction to biostatistics, study design &amp; reproducible R/Quarto workflow</td></tr>
+<tr><td>2</td><td>Descriptive statistics &amp; data visualization</td></tr>
+<tr><td>3</td><td>Estimation, statistical inference &amp; group comparisons</td></tr>
+<tr><td>4</td><td>Correlation and linear regression</td></tr>
+<tr><td>5</td><td>Logistic regression and GLMs</td></tr>
+<tr><td>6</td><td>Survival analysis and diagnostic accuracy</td></tr>
+<tr><td>7</td><td>Missing data, causal thinking, sample size &amp; reporting</td></tr>
+<tr><td>8</td><td>Final synthesis and mini-project</td></tr>
+</table>
+
+### Practical information
+
+<div class="fiche-info">
+<dl>
+<dt>Audience</dt><dd>Health researchers, clinicians, students with no statistics background required</dd>
+<dt>Prerequisites</dt><dd>None; R/RStudio setup covered in Session 1</dd>
+<dt>Format</dt><dd>Live sessions, slides, notebooks, datasets, exercises</dd>
+<dt>Schedule</dt><dd>Mon/Wed/Fri 18h00&ndash;20h00, Sun 10h00&ndash;12h00 (Morocco time)</dd>
+<dt>Tools</dt><dd>R, RStudio, Quarto</dd>
+<dt>Assessment</dt><dd>Reproducible Quarto mini-project</dd>
+<dt>Next step</dt><dd>[**ML4HOR**](ml4hor.qmd), [**SURV4CR**](surv4cr.qmd), or [**METAR**](metar.qmd)</dd>
+</dl>
+</div>
+
+:::
+
+:::
+
+::: {.fiche-footer}
+MHDSR &middot; Instructor: Imad El Badisy, PhD &middot; [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) <span class="no-print">&middot; [Register &rarr;](mailto:elbadisyimad@gmail.com?subject=BIOSTATR%20-%20Registration) &middot; [&larr; Back to catalogue](index.qmd)</span>
+:::
+
+:::
