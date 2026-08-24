@@ -43,29 +43,9 @@ logo <- ggplot(hex, aes(x, y)) +
   ) +
   annotate(
     "text",
-    x = -0.14,
+    x = 0,
     y = 0.06,
-    label = "MHDSR",
-    color = text,
-    size = 12,
-    family = "red_hat_text",
-    fontface = "plain"
-  ) +
-  annotate(
-    "segment",
-    x = 0.41,
-    xend = 0.41,
-    y = -0.01,
-    yend = 0.13,
-    color = text,
-    linewidth = 2,
-    lineend = "butt"
-  ) +
-  annotate(
-    "text",
-    x = 0.54,
-    y = 0.06,
-    label = ">",
+    label = "MHDSR |>",
     color = text,
     size = 12,
     family = "red_hat_text",
