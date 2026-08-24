@@ -1,0 +1,91 @@
+---
+title: "METAR"
+pagetitle: "METAR - Conducting Meta-Analysis with R"
+description: "Conducting Meta-Analysis with R"
+page-layout: full
+title-block-banner: false
+css:
+  - ../assets/imad/fiche.css
+resources:
+  - ../assets/imad/fiche.css
+---
+
+::: {.fiche}
+
+::: {.fiche-header}
+<div>
+  <p class="fiche-code">METAR</p>
+  <p class="fiche-title">Conducting Meta-Analysis with R<span class="fiche-tag">Evidence synthesis</span></p>
+</div>
+<div class="fiche-meta">
+  <span>{{< fa clock >}} 16 hours &middot; 8 sessions</span>
+  <span>{{< fa calendar >}} 19/10 &ndash; 01/11/2026</span>
+  <span>{{< fa euro-sign >}} 150&euro; (1500 MAD)</span>
+</div>
+:::
+
+::: {.fiche-grid}
+
+::: {}
+
+### Course description
+
+**METAR** provides a practical and methodologically rigorous introduction to conducting meta-analysis with R. It covers the complete evidence-synthesis workflow: formulating a review question, developing an analysis-ready extraction table, computing effect sizes, fitting fixed-effect and random-effects models, assessing heterogeneity, producing forest plots, exploring moderators, assessing publication bias, evaluating certainty of evidence, and preparing a reproducible Quarto report.
+
+The course emphasizes transparent reporting, correct interpretation of pooled estimates, reproducible analysis, and publication-quality tables and figures.
+
+### Learning objectives
+
+By the end of **METAR**, participants will be able to:
+
+1. formulate a meta-analysis question using the PICO framework;
+2. structure extracted study data for analysis in R;
+3. compute effect sizes for binary and continuous outcomes;
+4. fit fixed-effect and random-effects meta-analysis models;
+5. quantify and explore heterogeneity using Q, I&sup2;, and tau&sup2;;
+6. produce publication-quality forest plots;
+7. conduct subgroup analysis and meta-regression;
+8. assess small-study effects and publication bias;
+9. summarize risk of bias and certainty of evidence;
+10. produce a reproducible meta-analysis report with Quarto.
+
+:::
+
+::: {}
+
+### Schedule
+
+<table class="fiche-schedule">
+<tr><th>No.</th><th>Topic</th></tr>
+<tr><td>1</td><td>Intro to systematic reviews &amp; meta-analysis, protocol and search strategy</td></tr>
+<tr><td>2</td><td>Data extraction, risk of bias &amp; preparing data in R</td></tr>
+<tr><td>3</td><td>Effect sizes for binary and continuous outcomes</td></tr>
+<tr><td>4</td><td>Fixed-effect and random-effects models</td></tr>
+<tr><td>5</td><td>Heterogeneity and sensitivity analysis</td></tr>
+<tr><td>6</td><td>Forest plots and result interpretation</td></tr>
+<tr><td>7</td><td>Subgroup analysis, meta-regression, publication bias &amp; certainty of evidence</td></tr>
+<tr><td>8</td><td>Reproducible reporting and final project</td></tr>
+</table>
+
+### Practical information
+
+<div class="fiche-info">
+<dl>
+<dt>Audience</dt><dd>Clinicians, researchers, PhD students, public health professionals, evidence synthesis analysts</dd>
+<dt>Prerequisites</dt><dd>Basic R recommended, as covered in [**BIOSTATR**](biostatr.qmd)</dd>
+<dt>Format</dt><dd>Live sessions, slides, notebooks, datasets, exercises</dd>
+<dt>Schedule</dt><dd>Mon/Wed/Fri 18h00&ndash;20h00, Sun 10h00&ndash;12h00 (Morocco time)</dd>
+<dt>Tools</dt><dd>R, RStudio, Quarto</dd>
+<dt>Assessment</dt><dd>Reproducible Quarto mini-project</dd>
+</dl>
+</div>
+
+:::
+
+:::
+
+::: {.fiche-footer}
+MHDSR &middot; Instructor: Imad El Badisy, PhD &middot; [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) <span class="no-print">&middot; [Register &rarr;](mailto:elbadisyimad@gmail.com?subject=METAR%20-%20Registration) &middot; [&larr; Back to catalogue](index.qmd)</span>
+:::
+
+:::

@@ -1,0 +1,91 @@
+---
+title: "SURV4CR"
+pagetitle: "SURV4CR - Survival Analysis for Clinical Research with R"
+description: "Survival Analysis for Clinical Research with R"
+page-layout: full
+title-block-banner: false
+css:
+  - ../assets/imad/fiche.css
+resources:
+  - ../assets/imad/fiche.css
+---
+
+::: {.fiche}
+
+::: {.fiche-header}
+<div>
+  <p class="fiche-code">SURV4CR</p>
+  <p class="fiche-title">Survival Analysis for Clinical Research with R<span class="fiche-tag">Time-to-event</span></p>
+</div>
+<div class="fiche-meta">
+  <span>{{< fa clock >}} 16 hours &middot; 8 sessions</span>
+  <span>{{< fa calendar >}} 05/10 &ndash; 18/10/2026</span>
+  <span>{{< fa euro-sign >}} 150&euro; (1500 MAD)</span>
+</div>
+:::
+
+::: {.fiche-grid}
+
+::: {}
+
+### Course description
+
+**SURV4CR** provides a practical and methodologically rigorous introduction to survival analysis for clinical research using R. It covers the full time-to-event analysis workflow: survival data structure, censoring, Kaplan-Meier estimation, log-rank tests, Cox regression, proportional hazards diagnostics, competing risks, RMST, survival machine learning, dynamic RMST analysis, and temporal phenotyping.
+
+The course emphasizes clinical interpretation, correct handling of censoring, model assumptions, reproducible analysis, and responsible use of machine learning for time-to-event outcomes.
+
+### Learning objectives
+
+By the end of **SURV4CR**, participants will be able to:
+
+1. define time origin, event, follow-up time, and censoring mechanism;
+2. structure survival data using R;
+3. estimate and interpret Kaplan-Meier curves and perform log-rank tests;
+4. fit and assess Cox proportional hazards models, including diagnostics and extensions;
+5. analyze competing risks using cumulative incidence and Fine-Gray models;
+6. use RMST as a clinically interpretable survival estimand;
+7. fit, evaluate, and interpret survival machine learning models;
+8. compute dynamic RMST curves and apply temporal clustering for survival phenotyping;
+9. produce a reproducible survival analysis report.
+
+:::
+
+::: {}
+
+### Schedule
+
+<table class="fiche-schedule">
+<tr><th>No.</th><th>Topic</th></tr>
+<tr><td>1</td><td>Survival data structure, study design &amp; Kaplan-Meier/log-rank</td></tr>
+<tr><td>2</td><td>Cox proportional hazards model</td></tr>
+<tr><td>3</td><td>Cox model extensions (stratified, time-varying, frailty)</td></tr>
+<tr><td>4</td><td>Competing risks and flexible parametric models</td></tr>
+<tr><td>5</td><td>RMST as a clinical estimand</td></tr>
+<tr><td>6</td><td>Survival ML: foundations, evaluation &amp; tuning</td></tr>
+<tr><td>7</td><td>Survival ML interpretation, dynamic RMST &amp; temporal phenotyping</td></tr>
+<tr><td>8</td><td>End-to-end survival analysis project</td></tr>
+</table>
+
+### Practical information
+
+<div class="fiche-info">
+<dl>
+<dt>Audience</dt><dd>Clinicians, clinical researchers, epidemiologists, PhD students, analysts with follow-up data</dd>
+<dt>Prerequisites</dt><dd>Basic R and regression recommended, as covered in [**BIOSTATR**](biostatr.qmd)</dd>
+<dt>Format</dt><dd>Live sessions, slides, notebooks, datasets, exercises</dd>
+<dt>Schedule</dt><dd>Mon/Wed/Fri 18h00&ndash;20h00, Sun 10h00&ndash;12h00 (Morocco time)</dd>
+<dt>Tools</dt><dd>R, RStudio, Quarto</dd>
+<dt>Assessment</dt><dd>Reproducible Quarto mini-project</dd>
+<dt>Next step</dt><dd>[**METAR**](metar.qmd)</dd>
+</dl>
+</div>
+
+:::
+
+:::
+
+::: {.fiche-footer}
+MHDSR &middot; Instructor: Imad El Badisy, PhD &middot; [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) <span class="no-print">&middot; [Register &rarr;](mailto:elbadisyimad@gmail.com?subject=SURV4CR%20-%20Registration) &middot; [&larr; Back to catalogue](index.qmd)</span>
+:::
+
+:::

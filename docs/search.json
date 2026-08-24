@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "What. MHDSR (Methods in Health Data Science with R) is a live, cohort-based training pathway in applied biostatistics, machine learning, survival analysis, and evidence synthesis, taught in R with reproducible Quarto workflows. It comprises four courses, BIOSTATR, ML4HOR, SURV4CR, and METAR, that can be taken independently or followed as a complete pathway.\n\n\n\n\n\n\n\n\nFigure 1: The MHDSR pathway\n\n\n\n\nEach course can be taken independently (no prerequisite is mandatory), but the order above is recommended for participants building comprehensive mastery.\n\n\n Why\nHealth researchers are often taught statistics and R as separate subjects, disconnected from the reproducible workflows expected in publication and clinical practice. MHDSR closes that gap: every course pairs the underlying methodology with a hands-on R implementation and ends with a reproducible Quarto report.\n\n\n Who it’s for\nClinicians, researchers, PhD students, public health professionals, and analysts who want a rigorous, hands-on introduction to modern health data analysis in R. No advanced statistics background is required for BIOSTATR; the other three courses build on it but can be taken independently.\n\n\n What you get\nLive sessions, slides, notebooks, datasets, and exercises for every session, with direct feedback in a small cohort, ending in a short reproducible Quarto mini-project.\n\n\n\nSee the full catalogue →"
+  },
+  {
+    "objectID": "about.html#mhdsr",
+    "href": "about.html#mhdsr",
+    "title": "About",
+    "section": "",
+    "text": "What. MHDSR (Methods in Health Data Science with R) is a live, cohort-based training pathway in applied biostatistics, machine learning, survival analysis, and evidence synthesis, taught in R with reproducible Quarto workflows. It comprises four courses, BIOSTATR, ML4HOR, SURV4CR, and METAR, that can be taken independently or followed as a complete pathway.\n\n\n\n\n\n\n\n\nFigure 1: The MHDSR pathway\n\n\n\n\nEach course can be taken independently (no prerequisite is mandatory), but the order above is recommended for participants building comprehensive mastery.\n\n\n Why\nHealth researchers are often taught statistics and R as separate subjects, disconnected from the reproducible workflows expected in publication and clinical practice. MHDSR closes that gap: every course pairs the underlying methodology with a hands-on R implementation and ends with a reproducible Quarto report.\n\n\n Who it’s for\nClinicians, researchers, PhD students, public health professionals, and analysts who want a rigorous, hands-on introduction to modern health data analysis in R. No advanced statistics background is required for BIOSTATR; the other three courses build on it but can be taken independently.\n\n\n What you get\nLive sessions, slides, notebooks, datasets, and exercises for every session, with direct feedback in a small cohort, ending in a short reproducible Quarto mini-project.\n\n\n\nSee the full catalogue →"
+  },
+  {
+    "objectID": "about.html#the-instructor",
+    "href": "about.html#the-instructor",
+    "title": "About",
+    "section": "The Instructor",
+    "text": "The Instructor\nMHDSR is designed and taught by Imad El Badisy, PhD, Research Engineer in Health Data Science.\nRead the full profile at elbadisyimad.com →"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nFor registration, questions about a course, or group/custom training requests: elbadisyimad@gmail.com"
+  },
+  {
+    "objectID": "courses/surv4cr.html",
+    "href": "courses/surv4cr.html",
+    "title": "SURV4CR",
+    "section": "",
+    "text": "SURV4CR\n\n\nSurvival Analysis for Clinical Research with RTime-to-event\n\n\n\n 16 hours · 8 sessions  05/10 – 18/10/2026  150€ (1500 MAD)\n\n\n\n\n\nCourse description\nSURV4CR provides a practical and methodologically rigorous introduction to survival analysis for clinical research using R. It covers the full time-to-event analysis workflow: survival data structure, censoring, Kaplan-Meier estimation, log-rank tests, Cox regression, proportional hazards diagnostics, competing risks, RMST, survival machine learning, dynamic RMST analysis, and temporal phenotyping.\nThe course emphasizes clinical interpretation, correct handling of censoring, model assumptions, reproducible analysis, and responsible use of machine learning for time-to-event outcomes.\n\n\nLearning objectives\nBy the end of SURV4CR, participants will be able to:\n\ndefine time origin, event, follow-up time, and censoring mechanism;\nstructure survival data using R;\nestimate and interpret Kaplan-Meier curves and perform log-rank tests;\nfit and assess Cox proportional hazards models, including diagnostics and extensions;\nanalyze competing risks using cumulative incidence and Fine-Gray models;\nuse RMST as a clinically interpretable survival estimand;\nfit, evaluate, and interpret survival machine learning models;\ncompute dynamic RMST curves and apply temporal clustering for survival phenotyping;\nproduce a reproducible survival analysis report.\n\n\n\n\n\nSchedule\n\n\n\nNo.\n\n\nTopic\n\n\n\n\n1\n\n\nSurvival data structure, study design & Kaplan-Meier/log-rank\n\n\n\n\n2\n\n\nCox proportional hazards model\n\n\n\n\n3\n\n\nCox model extensions (stratified, time-varying, frailty)\n\n\n\n\n4\n\n\nCompeting risks and flexible parametric models\n\n\n\n\n5\n\n\nRMST as a clinical estimand\n\n\n\n\n6\n\n\nSurvival ML: foundations, evaluation & tuning\n\n\n\n\n7\n\n\nSurvival ML interpretation, dynamic RMST & temporal phenotyping\n\n\n\n\n8\n\n\nEnd-to-end survival analysis project\n\n\n\n\n\nPractical information\n\n\n\nAudience\n\n\nClinicians, clinical researchers, epidemiologists, PhD students, analysts with follow-up data\n\n\nPrerequisites\n\n\nBasic R and regression recommended, as covered in BIOSTATR\n\n\nFormat\n\n\nLive sessions, slides, notebooks, datasets, exercises\n\n\nSchedule\n\n\nMon/Wed/Fri 18h00–20h00, Sun 10h00–12h00 (Morocco time)\n\n\nTools\n\n\nR, RStudio, Quarto\n\n\nAssessment\n\n\nReproducible Quarto mini-project\n\n\nNext step\n\n\nMETAR\n\n\n\n\n\n\n\nMHDSR · Instructor: Imad El Badisy, PhD · elbadisyimad@gmail.com · Register → · ← Back to catalogue"
+  },
+  {
+    "objectID": "courses/biostatr.html",
+    "href": "courses/biostatr.html",
+    "title": "BIOSTATR",
+    "section": "",
+    "text": "BIOSTATR\n\n\nApplied Biostatistics with RFoundations\n\n\n\n 16 hours · 8 sessions  07/09 – 20/09/2026  150€ (1500 MAD)\n\n\n\n\n\nCourse description\nBIOSTATR is the entry point of the MHDSR pathway: a practical, rigorous introduction to applied biostatistics for health research using R. It gives participants the foundations everyone else builds on (study design, descriptive statistics, inference, regression, survival analysis, and reproducible reporting) before they move on to ML4HOR, SURV4CR, or METAR.\nThe course emphasizes estimation, interpretation, reproducibility, and appropriate use of statistical methods in clinical research.\n\n\nLearning objectives\nBy the end of BIOSTATR, participants will be able to:\n\nformulate health research questions in statistical terms;\nidentify study designs and variable types;\norganize reproducible analyses using R and Quarto;\nsummarize and visualize health data appropriately;\ninterpret confidence intervals, p-values, and effect estimates;\ncompare groups using suitable statistical tests;\nfit and interpret linear and logistic regression models;\nunderstand the basics of survival analysis and diagnostic accuracy;\nrecognize issues related to missing data and causal thinking;\nproduce a reproducible statistical report.\n\n\n\n\n\nSchedule\n\n\n\nNo.\n\n\nTopic\n\n\n\n\n1\n\n\nIntroduction to biostatistics, study design & reproducible R/Quarto workflow\n\n\n\n\n2\n\n\nDescriptive statistics & data visualization\n\n\n\n\n3\n\n\nEstimation, statistical inference & group comparisons\n\n\n\n\n4\n\n\nCorrelation and linear regression\n\n\n\n\n5\n\n\nLogistic regression and GLMs\n\n\n\n\n6\n\n\nSurvival analysis and diagnostic accuracy\n\n\n\n\n7\n\n\nMissing data, causal thinking, sample size & reporting\n\n\n\n\n8\n\n\nFinal synthesis and mini-project\n\n\n\n\n\nPractical information\n\n\n\nAudience\n\n\nHealth researchers, clinicians, students with no statistics background required\n\n\nPrerequisites\n\n\nNone; R/RStudio setup covered in Session 1\n\n\nFormat\n\n\nLive sessions, slides, notebooks, datasets, exercises\n\n\nSchedule\n\n\nMon/Wed/Fri 18h00–20h00, Sun 10h00–12h00 (Morocco time)\n\n\nTools\n\n\nR, RStudio, Quarto\n\n\nAssessment\n\n\nReproducible Quarto mini-project\n\n\nNext step\n\n\nML4HOR, SURV4CR, or METAR\n\n\n\n\n\n\n\nMHDSR · Instructor: Imad El Badisy, PhD · elbadisyimad@gmail.com · Register → · ← Back to catalogue"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MHDSR",
+    "section": "",
+    "text": "Methods in Health Data Science with R (MHDSR) is a live, cohort-based training pathway in applied biostatistics, machine learning, survival analysis, and evidence synthesis, taught in R with reproducible Quarto workflows."
+  },
+  {
+    "objectID": "index.html#programme-design",
+    "href": "index.html#programme-design",
+    "title": "MHDSR",
+    "section": "Programme design",
+    "text": "Programme design\nThe MHDSR pathway takes participants from applied biostatistics through prediction, time-to-event analysis, and evidence synthesis. BIOSTATR gives the foundations: study design, descriptive statistics, inference, regression, survival basics, and reproducible R/Quarto workflows. ML4HOR builds on it with prediction, validation, and interpretability. SURV4CR extends this to the full time-to-event workflow for clinical research. METAR closes the pathway with evidence synthesis and pooled inference across studies.\nEach course can be taken independently (no prerequisite is mandatory), but the order above is recommended for participants building comprehensive mastery.\nBIOSTATR → ML4HOR → SURV4CR → METAR. Browse the full catalogue, schedule, and pricing →"
+  },
+  {
+    "objectID": "courses/index.html",
+    "href": "courses/index.html",
+    "title": "Courses",
+    "section": "",
+    "text": "Four independent, cohort-based courses, self-contained but designed to build on each other into a complete methods pathway. No prerequisite is mandatory, though taking them in order is recommended."
+  },
+  {
+    "objectID": "courses/index.html#next-cohort",
+    "href": "courses/index.html#next-cohort",
+    "title": "Courses",
+    "section": "Next cohort",
+    "text": "Next cohort\nEnrollment is open. Registration is per course; participants may register for a single course or for all four.\n\n\n\n\n\n\n\n\nCourse\nFocus\nDates\n\n\n\n\nBIOSTATR\nApplied Biostatistics with R\n07/09 – 20/09/2026\n\n\nML4HOR\nMachine Learning for Health Outcomes with R\n21/09 – 04/10/2026\n\n\nSURV4CR\nSurvival Analysis for Clinical Research with R\n05/10 – 18/10/2026\n\n\nMETAR\nConducting Meta-Analysis with R\n19/10 – 01/11/2026\n\n\n\n\n\nDuration 2 weeks8 sessions · 16 contact hours\n\n\nSchedule Mon / Wed / Fri · 18h00–20h00Sunday · 10h00–12h00Morocco time\n\n\nPrice 150€ (1500 MAD)per course\n\n\nLanguage Teaching in FrenchEnglish statistical and technical terms\n\n\nTo register or ask a question, write to elbadisyimad@gmail.com, or download the cohort announcement (PDF) for full details."
+  },
+  {
+    "objectID": "courses/index.html#catalogue",
+    "href": "courses/index.html#catalogue",
+    "title": "Courses",
+    "section": "Catalogue",
+    "text": "Catalogue"
+  },
+  {
+    "objectID": "courses/index.html#biostatr-applied-biostatistics-with-r",
+    "href": "courses/index.html#biostatr-applied-biostatistics-with-r",
+    "title": "Courses",
+    "section": "BIOSTATR – Applied Biostatistics with R",
+    "text": "BIOSTATR – Applied Biostatistics with R\nFull analytical workflow for health research: study questions, data types, descriptive statistics, visualization, inference, regression, survival analysis, diagnostic accuracy, missing data, causal thinking, and reproducible reporting with Quarto. No statistics background required.\nFull training sheet →"
+  },
+  {
+    "objectID": "courses/index.html#ml4hor-machine-learning-for-health-outcomes-with-r",
+    "href": "courses/index.html#ml4hor-machine-learning-for-health-outcomes-with-r",
+    "title": "Courses",
+    "section": "ML4HOR – Machine Learning for Health Outcomes with R",
+    "text": "ML4HOR – Machine Learning for Health Outcomes with R\nComplete supervised learning workflow, plus clustering for patient phenotyping and subgroup discovery. Emphasis on validation, leakage prevention, calibration, interpretability, and clinical relevance.\nFull training sheet →"
+  },
+  {
+    "objectID": "courses/index.html#surv4cr-survival-analysis-for-clinical-research-with-r",
+    "href": "courses/index.html#surv4cr-survival-analysis-for-clinical-research-with-r",
+    "title": "Courses",
+    "section": "SURV4CR – Survival Analysis for Clinical Research with R",
+    "text": "SURV4CR – Survival Analysis for Clinical Research with R\nFull time-to-event workflow: censoring, Kaplan-Meier, log-rank tests, Cox regression, proportional hazards diagnostics, competing risks, RMST, survival machine learning, and temporal phenotyping.\nFull training sheet →"
+  },
+  {
+    "objectID": "courses/index.html#metar-conducting-meta-analysis-with-r",
+    "href": "courses/index.html#metar-conducting-meta-analysis-with-r",
+    "title": "Courses",
+    "section": "METAR – Conducting Meta-Analysis with R",
+    "text": "METAR – Conducting Meta-Analysis with R\nComplete evidence-synthesis workflow: review question, extraction table, effect sizes, fixed- and random-effects models, heterogeneity, forest plots, moderators, publication bias, and certainty of evidence.\nFull training sheet →"
+  },
+  {
+    "objectID": "courses/index.html#faq",
+    "href": "courses/index.html#faq",
+    "title": "Courses",
+    "section": "FAQ",
+    "text": "FAQ\nCan I take just one course? Yes, each course is self-contained and registered/paid separately.\nDo I need to know R already? No, not for BIOSTATR. The other courses recommend it as preparation but don’t require it.\nWhat language is it taught in? French, with English for statistical and technical terms.\nHow do I register? Email elbadisyimad@gmail.com with your name and chosen course(s)."
+  },
+  {
+    "objectID": "courses/ml4hor.html",
+    "href": "courses/ml4hor.html",
+    "title": "ML4HOR",
+    "section": "",
+    "text": "ML4HOR\n\n\nMachine Learning for Health Outcomes with RPrediction\n\n\n\n 16 hours · 8 sessions  21/09 – 04/10/2026  150€ (1500 MAD)\n\n\n\n\n\nCourse description\nML4HOR provides a practical introduction to machine learning for health outcomes research using R. The course covers the complete supervised learning workflow and explores clustering as a final extension for patient phenotyping, subgroup discovery, and exploratory health-data analysis.\nThe course emphasizes validation, data leakage prevention, appropriate performance metrics, calibration, interpretability, clinical relevance, and reproducible reporting.\n\n\nLearning objectives\nBy the end of ML4HOR, participants will be able to:\n\nformulate machine learning questions in health outcomes research;\nprepare tabular health datasets for ML analysis;\nfit supervised learners;\nevaluate models using resampling-based validation;\ntune and compare learners fairly;\nassess discrimination, calibration, and clinical usefulness;\ninterpret ML models using global and local explanation methods;\napply clustering for patient phenotyping and subgroup discovery;\ndistinguish prediction, clustering, and causal estimation;\nproduce a reproducible ML report with Quarto.\n\n\n\n\n\nSchedule\n\n\n\nNo.\n\n\nTopic\n\n\n\n\n1\n\n\nIntroduction to ML for health outcomes & R/Quarto workflow\n\n\n\n\n2\n\n\nResampling and performance metrics\n\n\n\n\n3\n\n\nLinear and regularized models\n\n\n\n\n4\n\n\nTree-based models, random forests, boosting & ensembles\n\n\n\n\n5\n\n\nHyperparameter tuning, model selection & benchmarking\n\n\n\n\n6\n\n\nCalibration and clinical utility\n\n\n\n\n7\n\n\nModel interpretation, explainability & clustering for phenotyping\n\n\n\n\n8\n\n\nEnd-to-end ML pipeline and mini-project\n\n\n\n\n\nPractical information\n\n\n\nAudience\n\n\nResearchers, PhD students, clinicians, public health professionals, data analysts\n\n\nPrerequisites\n\n\nBasic R and statistical literacy recommended, as covered in BIOSTATR\n\n\nFormat\n\n\nLive sessions, slides, notebooks, datasets, exercises\n\n\nSchedule\n\n\nMon/Wed/Fri 18h00–20h00, Sun 10h00–12h00 (Morocco time)\n\n\nTools\n\n\nR, RStudio, Quarto\n\n\nAssessment\n\n\nReproducible Quarto mini-project\n\n\nNext step\n\n\nSURV4CR or METAR\n\n\n\n\n\n\n\nMHDSR · Instructor: Imad El Badisy, PhD · elbadisyimad@gmail.com · Register → · ← Back to catalogue"
+  },
+  {
+    "objectID": "courses/metar.html",
+    "href": "courses/metar.html",
+    "title": "METAR",
+    "section": "",
+    "text": "METAR\n\n\nConducting Meta-Analysis with REvidence synthesis\n\n\n\n 16 hours · 8 sessions  19/10 – 01/11/2026  150€ (1500 MAD)\n\n\n\n\n\nCourse description\nMETAR provides a practical and methodologically rigorous introduction to conducting meta-analysis with R. It covers the complete evidence-synthesis workflow: formulating a review question, developing an analysis-ready extraction table, computing effect sizes, fitting fixed-effect and random-effects models, assessing heterogeneity, producing forest plots, exploring moderators, assessing publication bias, evaluating certainty of evidence, and preparing a reproducible Quarto report.\nThe course emphasizes transparent reporting, correct interpretation of pooled estimates, reproducible analysis, and publication-quality tables and figures.\n\n\nLearning objectives\nBy the end of METAR, participants will be able to:\n\nformulate a meta-analysis question using the PICO framework;\nstructure extracted study data for analysis in R;\ncompute effect sizes for binary and continuous outcomes;\nfit fixed-effect and random-effects meta-analysis models;\nquantify and explore heterogeneity using Q, I², and tau²;\nproduce publication-quality forest plots;\nconduct subgroup analysis and meta-regression;\nassess small-study effects and publication bias;\nsummarize risk of bias and certainty of evidence;\nproduce a reproducible meta-analysis report with Quarto.\n\n\n\n\n\nSchedule\n\n\n\nNo.\n\n\nTopic\n\n\n\n\n1\n\n\nIntro to systematic reviews & meta-analysis, protocol and search strategy\n\n\n\n\n2\n\n\nData extraction, risk of bias & preparing data in R\n\n\n\n\n3\n\n\nEffect sizes for binary and continuous outcomes\n\n\n\n\n4\n\n\nFixed-effect and random-effects models\n\n\n\n\n5\n\n\nHeterogeneity and sensitivity analysis\n\n\n\n\n6\n\n\nForest plots and result interpretation\n\n\n\n\n7\n\n\nSubgroup analysis, meta-regression, publication bias & certainty of evidence\n\n\n\n\n8\n\n\nReproducible reporting and final project\n\n\n\n\n\nPractical information\n\n\n\nAudience\n\n\nClinicians, researchers, PhD students, public health professionals, evidence synthesis analysts\n\n\nPrerequisites\n\n\nBasic R recommended, as covered in BIOSTATR\n\n\nFormat\n\n\nLive sessions, slides, notebooks, datasets, exercises\n\n\nSchedule\n\n\nMon/Wed/Fri 18h00–20h00, Sun 10h00–12h00 (Morocco time)\n\n\nTools\n\n\nR, RStudio, Quarto\n\n\nAssessment\n\n\nReproducible Quarto mini-project\n\n\n\n\n\n\n\nMHDSR · Instructor: Imad El Badisy, PhD · elbadisyimad@gmail.com · Register → · ← Back to catalogue"
+  }
+]

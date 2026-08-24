@@ -1,0 +1,93 @@
+---
+title: "BIOSTATR"
+pagetitle: "BIOSTATR - Biostatistique appliqu&eacute;e avec R"
+lang: fr
+description: "Biostatistique appliqu&eacute;e avec R"
+page-layout: full
+title-block-banner: false
+css:
+  - ../../assets/imad/fiche.css
+resources:
+  - ../../assets/imad/fiche.css
+---
+
+::: {.fiche}
+
+::: {.fiche-header}
+<div>
+  <p class="fiche-code">BIOSTATR</p>
+  <p class="fiche-title">Biostatistique appliqu&eacute;e avec R<span class="fiche-tag">Fondations</span></p>
+</div>
+<div class="fiche-meta">
+  <span>{{< fa clock >}} 16 heures &middot; 8 s&eacute;ances</span>
+  <span>{{< fa calendar >}} 07/09 &ndash; 20/09/2026</span>
+  <span>{{< fa euro-sign >}} 150&euro; (1500 MAD)</span>
+</div>
+:::
+
+::: {.fiche-grid}
+
+::: {}
+
+### Description du cours
+
+**BIOSTATR** est le point d'entr&eacute;e du parcours MHDSR : une introduction pratique et rigoureuse &agrave; la biostatistique appliqu&eacute;e &agrave; la recherche en sant&eacute; avec R. Il donne aux participants les fondations sur lesquelles s'appuient tous les autres cours (plan d'&eacute;tude, statistiques descriptives, inf&eacute;rence, r&eacute;gression, analyse de survie, et rapport reproductible) avant de passer &agrave; **ML4HOR**, **SURV4CR** ou **METAR**.
+
+Le cours met l'accent sur l'estimation, l'interpr&eacute;tation, la reproductibilit&eacute;, et l'utilisation appropri&eacute;e des m&eacute;thodes statistiques en recherche clinique.
+
+### Objectifs d'apprentissage
+
+&Agrave; l'issue de **BIOSTATR**, les participants seront capables de :
+
+1. formuler des questions de recherche en sant&eacute; en termes statistiques ;
+2. identifier les plans d'&eacute;tude et les types de variables ;
+3. organiser des analyses reproductibles avec R et Quarto ;
+4. r&eacute;sumer et visualiser les donn&eacute;es de sant&eacute; de mani&egrave;re appropri&eacute;e ;
+5. interpr&eacute;ter les intervalles de confiance, les valeurs p et les tailles d'effet ;
+6. comparer des groupes &agrave; l'aide de tests statistiques adapt&eacute;s ;
+7. ajuster et interpr&eacute;ter des mod&egrave;les de r&eacute;gression lin&eacute;aire et logistique ;
+8. comprendre les bases de l'analyse de survie et de la pr&eacute;cision diagnostique ;
+9. rep&eacute;rer les enjeux li&eacute;s aux donn&eacute;es manquantes et au raisonnement causal ;
+10. produire un rapport statistique reproductible.
+
+:::
+
+::: {}
+
+### Calendrier
+
+<table class="fiche-schedule">
+<tr><th>N&deg;</th><th>Sujet</th></tr>
+<tr><td>1</td><td>Introduction &agrave; la biostatistique, plan d'&eacute;tude &amp; flux de travail reproductible R/Quarto</td></tr>
+<tr><td>2</td><td>Statistiques descriptives &amp; visualisation des donn&eacute;es</td></tr>
+<tr><td>3</td><td>Estimation, inf&eacute;rence statistique &amp; comparaisons de groupes</td></tr>
+<tr><td>4</td><td>Corr&eacute;lation et r&eacute;gression lin&eacute;aire</td></tr>
+<tr><td>5</td><td>R&eacute;gression logistique et mod&egrave;les lin&eacute;aires g&eacute;n&eacute;ralis&eacute;s</td></tr>
+<tr><td>6</td><td>Analyse de survie et pr&eacute;cision diagnostique</td></tr>
+<tr><td>7</td><td>Donn&eacute;es manquantes, raisonnement causal, taille d'&eacute;chantillon &amp; rapport</td></tr>
+<tr><td>8</td><td>Synth&egrave;se finale et mini-projet</td></tr>
+</table>
+
+### Informations pratiques
+
+<div class="fiche-info">
+<dl>
+<dt>Public</dt><dd>Chercheurs en sant&eacute;, cliniciens, &eacute;tudiants, aucune connaissance pr&eacute;alable en statistique requise</dd>
+<dt>Pr&eacute;requis</dt><dd>Aucun ; l'installation de R/RStudio est couverte lors de la s&eacute;ance 1</dd>
+<dt>Format</dt><dd>S&eacute;ances en direct, diapositives, notebooks, jeux de donn&eacute;es, exercices</dd>
+<dt>Horaire</dt><dd>Lun/mer/ven 18h00&ndash;20h00, dim 10h00&ndash;12h00 (heure du Maroc)</dd>
+<dt>Outils</dt><dd>R, RStudio, Quarto</dd>
+<dt>&Eacute;valuation</dt><dd>Mini-projet Quarto reproductible</dd>
+<dt>&Eacute;tape suivante</dt><dd>[**ML4HOR**](ml4hor.qmd), [**SURV4CR**](surv4cr.qmd), ou [**METAR**](metar.qmd)</dd>
+</dl>
+</div>
+
+:::
+
+:::
+
+::: {.fiche-footer}
+MHDSR &middot; Formateur : Imad El Badisy, PhD &middot; [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) <span class="no-print">&middot; [S'inscrire &rarr;](mailto:elbadisyimad@gmail.com?subject=BIOSTATR%20-%20Inscription) &middot; [&larr; Retour au catalogue](index.qmd)</span>
+:::
+
+:::

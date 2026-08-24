@@ -1,0 +1,120 @@
+---
+title: "Methods in Health Data Science with R"
+subtitle: "September-October 2026 Cohort"
+author: "Imad EL BADISY, PhD"
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+    include-in-header:
+      text: |
+        \usepackage{graphicx}
+        \usepackage{booktabs}
+        \usepackage{hyperref}
+        \usepackage{geometry}
+        \geometry{margin=1.6cm}
+        \usepackage{array}
+        \usepackage{xcolor}
+        \usepackage{enumitem}
+        \pagestyle{empty}
+        \pagenumbering{gobble}
+        \definecolor{bsblue}{RGB}{0, 70, 127}
+        \definecolor{bsgray}{RGB}{235, 238, 242}
+        \setlength{\tabcolsep}{4pt}
+        \renewcommand{\arraystretch}{1.15}
+        \setlength{\parskip}{2pt}
+        \usepackage{tcolorbox}
+        \tcbuselibrary{skins}
+        \newtcolorbox{coursebox}[1]{
+          colback=bsgray, colframe=bsblue, boxrule=0.6pt, arc=2pt,
+          left=6pt, right=6pt, top=4pt, bottom=4pt, title={#1},
+          fonttitle=\bfseries\color{white}, colbacktitle=bsblue,
+          coltitle=white, halign title=center
+        }
+        \usepackage{titlesec}
+        \titleformat{\section}{\normalfont\Large\bfseries\color{bsblue}}{}{0pt}{}[]
+        \titlespacing*{\section}{0pt}{8pt}{4pt}
+        \makeatletter
+        \renewcommand{\section}[1]{%
+          \phantomsection\refstepcounter{section}%
+          \begin{center}\normalfont\Large\bfseries\color{bsblue} #1\end{center}%
+          \addcontentsline{toc}{section}{#1}%
+        }
+        \makeatother
+---
+
+\small
+
+\begin{center}
+{\Large\bfseries\color{bsblue} Four intensive R courses in methods for health data science}\\[2pt]
+{\large Online · Live cohort · September to October 2026}\\[4pt]
+{\bfseries\color{bsblue} Registration is open}
+\end{center}
+
+\vspace{4pt}
+
+Four independent, cohort-based courses take participants from applied biostatistics through machine learning, survival analysis, and evidence synthesis, all taught in R with reproducible Quarto workflows. Each course is self-contained: no prerequisite is mandatory, though taking them in order builds a complete methods pathway.
+
+\vspace{2pt}
+
+# Calendar
+
+\begin{center}
+\begin{tabular}{@{}p{7.6cm}@{\hspace{4pt}}p{7.6cm}@{}}
+
+\begin{coursebox}{BIOSTATR}
+Applied Biostatistics with R\\
+\textbf{From:} 07/09/2026 \quad \textbf{To:} 20/09/2026
+\end{coursebox}
+
+&
+
+\begin{coursebox}{ML4HOR}
+Machine Learning for Health Outcomes\\
+\textbf{From:} 21/09/2026 \quad \textbf{To:} 04/10/2026
+\end{coursebox}
+
+\\[4pt]
+
+\begin{coursebox}{SURV4CR}
+Survival Analysis for Clinical Research\\
+\textbf{From:} 05/10/2026 \quad \textbf{To:} 18/10/2026
+\end{coursebox}
+
+&
+
+\begin{coursebox}{METAR}
+Conducting Meta-Analysis with R\\
+\textbf{From:} 19/10/2026 \quad \textbf{To:} 01/11/2026
+\end{coursebox}
+
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\footnotesize Each course: 2 weeks, 8 sessions (16h). Mon/Wed/Fri 18h00-20h00, Sun 10h00-12h00, Morocco time.\normalsize
+
+# The Offer
+
+- **150€ (1500 MAD) per course**, register for any single course, or all four
+- Live sessions + slides, notebooks, datasets, and exercises for every session
+- Small cohort, direct feedback, exercises corrected in-session
+- Ends with a short reproducible Quarto mini-project
+- Teaching in French, with English for statistical/technical terms
+
+\vspace{4pt}
+
+# Who it's for
+
+Clinicians, researchers, PhD students, public health professionals, and analysts who want a rigorous, hands-on introduction to modern health data analysis in R. No advanced statistics background required for BIOSTATR; the other three build on it but can be taken independently.
+
+\vspace{6pt}
+
+\begin{center}
+\textbf{Instructor:} Imad EL BADISY, PhD \quad $\vert$ \quad \textbf{\href{https://elbadisyimad.com}{elbadisyimad.com}} \quad $\vert$ \quad \href{mailto:elbadisyimad@gmail.com}{elbadisyimad@gmail.com}
+\end{center}
+
+\begin{center}
+\footnotesize Full detailed program (session-by-session dates and content) available for each course.
+\end{center}

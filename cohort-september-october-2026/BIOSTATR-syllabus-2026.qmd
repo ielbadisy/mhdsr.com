@@ -1,0 +1,99 @@
+---
+title: "BIOSTATR: Applied Biostatistics with R"
+subtitle: "Full Program, September 2026 Cohort"
+author: "Imad EL BADISY, PhD"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+    include-in-header:
+      text: |
+        \usepackage{amsmath}
+        \usepackage{graphicx}
+        \usepackage{booktabs}
+        \usepackage{hyperref}
+        \usepackage{geometry}
+        \geometry{margin=2.5cm}
+        \usepackage{array}
+        \usepackage{xcolor}
+        \usepackage{enumitem}
+        \setlength{\tabcolsep}{3pt}
+        \renewcommand{\arraystretch}{1.12}
+---
+
+# Course Overview
+
+**Title:** Applied Biostatistics with R\
+**Format:** Online, cohort-based\
+**Duration:** 2 weeks, 8 sessions, 2 hours per session, 16 contact hours\
+**Dates:** 07/09/2026 – 20/09/2026\
+**Days:** Monday, Wednesday, Friday (18h00 to 20h00), Sunday (10h00 to 12h00)\
+**Time:** Morocco time\
+**Price:** 150€ (1500 MAD)\
+**Instructor:** Imad EL BADISY, PhD\
+**Contact:** [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) | [elbadisyimad.com](https://elbadisyimad.com)
+
+## Course Description
+
+`BIOSTATR` provides a practical and rigorous introduction to applied biostatistics for health research using R. It covers the full analytical workflow: study questions, data types, descriptive statistics, visualization, inference, regression models, survival analysis, diagnostic accuracy, missing data, causal thinking, and reproducible reporting with Quarto.
+
+The course emphasizes estimation, interpretation, reproducibility, and appropriate use of statistical methods in clinical research.
+
+## Target Audience
+
+Clinicians, biomedical researchers, PhD students, public health professionals, and analysts. No advanced statistics background required.
+
+## Prerequisites
+
+Basic computer literacy. No prior R experience required; R and RStudio setup is covered in Session 1.
+
+## Learning Objectives
+
+By the end of `BIOSTATR`, participants will be able to:
+
+1. formulate health research questions in statistical terms;
+2. identify study designs and variable types;
+3. organize reproducible analyses using R and Quarto;
+4. summarize and visualize health data appropriately;
+5. interpret confidence intervals, p-values, and effect estimates;
+6. compare groups using suitable statistical tests;
+7. fit and interpret linear and logistic regression models;
+8. understand the basics of survival analysis and diagnostic accuracy;
+9. recognize issues related to missing data and causal thinking;
+10. produce a reproducible statistical report.
+
+# Detailed Schedule
+
+| No. | Week | Date | Time | Topic | Main Content |
+|---:|---|---|---|---|---|
+| 1 | 1 | 07/09/2026 (Mon) | 18h00-20h00 | Introduction to Biostatistics, Study Design & Reproducible R/Quarto Workflow | Role of biostatistics, study designs, data types, bias, confounding, R basics, RStudio projects, Quarto workflow |
+| 2 | 1 | 09/09/2026 (Wed) | 18h00-20h00 | Descriptive Statistics & Data Visualization | Central tendency, dispersion, frequencies, missing values, Table 1, distribution plots, uncertainty visualization |
+| 3 | 1 | 11/09/2026 (Fri) | 18h00-20h00 | Estimation, Statistical Inference & Group Comparisons | Sampling, confidence intervals, p-values, effect sizes, t-test, Wilcoxon, chi-square, Fisher, ANOVA, Kruskal-Wallis |
+| 4 | 1 | 13/09/2026 (Sun) | 10h00-12h00 | Correlation and Linear Regression | Pearson/Spearman correlation, simple and multiple linear regression, diagnostics |
+| 5 | 2 | 14/09/2026 (Mon) | 18h00-20h00 | Logistic Regression and GLMs | Binary outcomes, odds ratios, adjusted models, discrimination, calibration |
+| 6 | 2 | 16/09/2026 (Wed) | 18h00-20h00 | Survival Analysis and Diagnostic Accuracy | Kaplan-Meier, censoring, Cox model, sensitivity, specificity, PPV, NPV, ROC curves |
+| 7 | 2 | 18/09/2026 (Fri) | 18h00-20h00 | Missing Data, Causal Thinking, Sample Size & Reporting | MCAR/MAR/MNAR, multiple imputation, DAGs, confounding, power, reporting guidelines |
+| 8 | 2 | 20/09/2026 (Sun) | 10h00-12h00 | Final Synthesis and Mini-Project | Complete analysis workflow, interpretation, Quarto report, participant presentations |
+
+: `BIOSTATR` detailed schedule {tbl-colwidths="[4, 5, 12, 9, 27, 43]"}
+
+# Course Materials
+
+- Slides and self-contained notebooks distributed before each session
+- R scripts, datasets, and exercises (shared repository)
+- Exercises reviewed and corrected during sessions
+
+# Assessment
+
+Each course ends with a short reproducible Quarto report or mini-project, presented and discussed in Session 8.
+
+# About the Instructor
+
+Imad EL BADISY, PhD, is a biostatistician working on statistical and machine learning methods for health data, with a focus on survival analysis. Full profile, publications, and R packages: [elbadisyimad.com](https://elbadisyimad.com)
+
+# Policies
+
+**Language:** Teaching in French, with English for statistical and methodological terminology.\
+**Software:** R ($\geq$ 4.4) and RStudio required; setup covered in Session 1.\
+**Attendance:** Full attendance at all 8 sessions is recommended given the cumulative structure.

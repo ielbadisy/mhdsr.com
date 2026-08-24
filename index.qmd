@@ -1,0 +1,22 @@
+---
+title: "MHDSR"
+pagetitle: "MHDSR - Methods in Health Data Science with R"
+description: "Live, cohort-based courses in applied biostatistics and machine learning for health research, all in R."
+page-layout: full
+title-block-banner: false
+---
+
+**Methods in Health Data Science with R (MHDSR)** is a live, cohort-based training pathway in applied biostatistics, machine learning, survival analysis, and evidence synthesis, taught in R with reproducible Quarto workflows.
+
+<div class="announcement">
+Enrollment is open for the September&ndash;October 2026 cohort. To register, email [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com?subject=MHDSR%20-%20Registration%2FInterest) with your name and chosen course(s). [See the full catalogue &rarr;](courses/index.qmd)
+</div>
+
+## Programme design
+
+The MHDSR pathway takes participants from applied biostatistics through prediction, time-to-event analysis, and evidence synthesis. **BIOSTATR** gives the foundations: study design, descriptive statistics, inference, regression, survival basics, and reproducible R/Quarto workflows. **ML4HOR** builds on it with prediction, validation, and interpretability. **SURV4CR** extends this to the full time-to-event workflow for clinical research. **METAR** closes the pathway with evidence synthesis and pooled inference across studies.
+
+Each course can be taken independently (no prerequisite is mandatory), but the order above is recommended for participants building comprehensive mastery.
+
+`BIOSTATR` &rarr; `ML4HOR` &rarr; `SURV4CR` &rarr; `METAR`. [Browse the full catalogue, schedule, and pricing &rarr;](courses/index.qmd)
+

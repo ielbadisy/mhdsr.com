@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - CNAME
+    - pdfs/BIOSTATR-syllabus-2026.pdf
+    - pdfs/ML4HOR-syllabus-2026.pdf
+    - pdfs/SURV4CR-syllabus-2026.pdf
+    - pdfs/METAR-syllabus-2026.pdf
+    - pdfs/BiostatLab-cohort-announcement-2026.pdf
+    - logo_mhdsr.png
+
+profile:
+  default: en
+
+website:
+  title: "MHDSR"
+  site-url: "https://mhdsr.com"
+  favicon: logo_mhdsr.png
+  open-graph:
+    image: logo_mhdsr.png
+  twitter-card:
+    image: logo_mhdsr.png
+  page-footer:
+    right: "<a href=\"https://elbadisyimad.com\">elbadisyimad.com</a>"
+
+canonical-url: true
+
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+        - assets/imad-theme-light.scss
+        - assets/imad/colors-light.scss
+        - assets/imad/fonts.scss
+      dark:
+        - cosmo
+        - assets/imad-theme-dark.scss
+        - assets/imad/colors-dark.scss
+    css: assets/overrides.css
+    toc: false
+    smooth-scroll: true
+    anchor-sections: true
+    html-math-method: mathjax

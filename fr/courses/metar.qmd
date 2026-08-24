@@ -1,0 +1,92 @@
+---
+title: "METAR"
+pagetitle: "METAR - Conduite d'une m&eacute;ta-analyse avec R"
+lang: fr
+description: "Conduite d'une m&eacute;ta-analyse avec R"
+page-layout: full
+title-block-banner: false
+css:
+  - ../../assets/imad/fiche.css
+resources:
+  - ../../assets/imad/fiche.css
+---
+
+::: {.fiche}
+
+::: {.fiche-header}
+<div>
+  <p class="fiche-code">METAR</p>
+  <p class="fiche-title">Conduite d'une m&eacute;ta-analyse avec R<span class="fiche-tag">Synth&egrave;se de donn&eacute;es</span></p>
+</div>
+<div class="fiche-meta">
+  <span>{{< fa clock >}} 16 heures &middot; 8 s&eacute;ances</span>
+  <span>{{< fa calendar >}} 19/10 &ndash; 01/11/2026</span>
+  <span>{{< fa euro-sign >}} 150&euro; (1500 MAD)</span>
+</div>
+:::
+
+::: {.fiche-grid}
+
+::: {}
+
+### Description du cours
+
+**METAR** offre une introduction pratique et m&eacute;thodologiquement rigoureuse &agrave; la conduite d'une m&eacute;ta-analyse avec R. Il couvre le flux complet de synth&egrave;se de donn&eacute;es probantes : formuler une question de revue, construire une table d'extraction pr&ecirc;te &agrave; l'analyse, calculer des tailles d'effet, ajuster des mod&egrave;les &agrave; effets fixes et al&eacute;atoires, &eacute;valuer l'h&eacute;t&eacute;rog&eacute;n&eacute;it&eacute;, produire des forest plots, explorer des mod&eacute;rateurs, &eacute;valuer le biais de publication, &eacute;valuer le niveau de certitude des preuves, et pr&eacute;parer un rapport Quarto reproductible.
+
+Le cours met l'accent sur la transparence du rapport, l'interpr&eacute;tation correcte des estimations combin&eacute;es, la reproductibilit&eacute;, et des tableaux et figures de qualit&eacute; publication.
+
+### Objectifs d'apprentissage
+
+&Agrave; l'issue de **METAR**, les participants seront capables de :
+
+1. formuler une question de m&eacute;ta-analyse selon le cadre PICO ;
+2. structurer les donn&eacute;es extraites pour l'analyse avec R ;
+3. calculer des tailles d'effet pour des r&eacute;sultats binaires et continus ;
+4. ajuster des mod&egrave;les de m&eacute;ta-analyse &agrave; effets fixes et al&eacute;atoires ;
+5. quantifier et explorer l'h&eacute;t&eacute;rog&eacute;n&eacute;it&eacute; avec Q, I&sup2; et tau&sup2; ;
+6. produire des forest plots de qualit&eacute; publication ;
+7. r&eacute;aliser une analyse en sous-groupes et une m&eacute;ta-r&eacute;gression ;
+8. &eacute;valuer les effets de petites &eacute;tudes et le biais de publication ;
+9. r&eacute;sumer le risque de biais et le niveau de certitude des preuves ;
+10. produire un rapport de m&eacute;ta-analyse reproductible avec Quarto.
+
+:::
+
+::: {}
+
+### Calendrier
+
+<table class="fiche-schedule">
+<tr><th>N&deg;</th><th>Sujet</th></tr>
+<tr><td>1</td><td>Introduction aux revues syst&eacute;matiques &amp; m&eacute;ta-analyses, protocole et strat&eacute;gie de recherche</td></tr>
+<tr><td>2</td><td>Extraction des donn&eacute;es, risque de biais &amp; pr&eacute;paration des donn&eacute;es dans R</td></tr>
+<tr><td>3</td><td>Tailles d'effet pour r&eacute;sultats binaires et continus</td></tr>
+<tr><td>4</td><td>Mod&egrave;les &agrave; effets fixes et al&eacute;atoires</td></tr>
+<tr><td>5</td><td>H&eacute;t&eacute;rog&eacute;n&eacute;it&eacute; et analyse de sensibilit&eacute;</td></tr>
+<tr><td>6</td><td>Forest plots et interpr&eacute;tation des r&eacute;sultats</td></tr>
+<tr><td>7</td><td>Sous-groupes, m&eacute;ta-r&eacute;gression, biais de publication &amp; certitude des preuves</td></tr>
+<tr><td>8</td><td>Rapport reproductible et projet final</td></tr>
+</table>
+
+### Informations pratiques
+
+<div class="fiche-info">
+<dl>
+<dt>Public</dt><dd>Cliniciens, chercheurs, doctorants, professionnels de la sant&eacute; publique, analystes en synth&egrave;se de donn&eacute;es probantes</dd>
+<dt>Pr&eacute;requis</dt><dd>R de base recommand&eacute;, comme couvert dans [**BIOSTATR**](biostatr.qmd)</dd>
+<dt>Format</dt><dd>S&eacute;ances en direct, diapositives, notebooks, jeux de donn&eacute;es, exercices</dd>
+<dt>Horaire</dt><dd>Lun/mer/ven 18h00&ndash;20h00, dim 10h00&ndash;12h00 (heure du Maroc)</dd>
+<dt>Outils</dt><dd>R, RStudio, Quarto</dd>
+<dt>&Eacute;valuation</dt><dd>Mini-projet Quarto reproductible</dd>
+</dl>
+</div>
+
+:::
+
+:::
+
+::: {.fiche-footer}
+MHDSR &middot; Formateur : Imad El Badisy, PhD &middot; [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) <span class="no-print">&middot; [S'inscrire &rarr;](mailto:elbadisyimad@gmail.com?subject=METAR%20-%20Inscription) &middot; [&larr; Retour au catalogue](index.qmd)</span>
+:::
+
+:::

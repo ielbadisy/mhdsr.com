@@ -1,0 +1,99 @@
+---
+title: "ML4HOR: Machine Learning for Health Outcomes with R"
+subtitle: "Full Program, September 2026 Cohort"
+author: "Imad EL BADISY, PhD"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+    include-in-header:
+      text: |
+        \usepackage{amsmath}
+        \usepackage{graphicx}
+        \usepackage{booktabs}
+        \usepackage{hyperref}
+        \usepackage{geometry}
+        \geometry{margin=2.5cm}
+        \usepackage{array}
+        \usepackage{xcolor}
+        \usepackage{enumitem}
+        \setlength{\tabcolsep}{3pt}
+        \renewcommand{\arraystretch}{1.12}
+---
+
+# Course Overview
+
+**Title:** Machine Learning for Health Outcomes with R\
+**Format:** Online, cohort-based\
+**Duration:** 2 weeks, 8 sessions, 2 hours per session, 16 contact hours\
+**Dates:** 21/09/2026 – 04/10/2026\
+**Days:** Monday, Wednesday, Friday (18h00 to 20h00), Sunday (10h00 to 12h00)\
+**Time:** Morocco time\
+**Price:** 150€ (1500 MAD)\
+**Instructor:** Imad EL BADISY, PhD\
+**Contact:** [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) | [elbadisyimad.com](https://elbadisyimad.com)
+
+## Course Description
+
+`ML4HOR` provides a practical introduction to machine learning for health outcomes research using R. The course covers the complete supervised learning workflow and explores clustering as a final extension for patient phenotyping, subgroup discovery, and exploratory health-data analysis.
+
+The course emphasizes validation, data leakage prevention, appropriate performance metrics, calibration, interpretability, clinical relevance, and reproducible reporting.
+
+## Target Audience
+
+Researchers, PhD students, clinicians, public health professionals, and data analysts. Basic R and statistical literacy recommended.
+
+## Prerequisites
+
+Basic familiarity with R (as covered in `BIOSTATR`) is recommended but not mandatory.
+
+## Learning Objectives
+
+By the end of `ML4HOR`, participants will be able to:
+
+1. formulate machine learning questions in health outcomes research;
+2. prepare tabular health datasets for ML analysis;
+3. fit supervised learners;
+4. evaluate models using resampling-based validation;
+5. tune and compare learners fairly;
+6. assess discrimination, calibration, and clinical usefulness;
+7. interpret ML models using global and local explanation methods;
+8. apply clustering for patient phenotyping and subgroup discovery;
+9. distinguish prediction, clustering, and causal estimation;
+10. produce a reproducible ML report with Quarto.
+
+# Detailed Schedule
+
+| No. | Week | Date | Time | Topic | Main Content |
+|---:|---|---|---|---|---|
+| 1 | 1 | 21/09/2026 (Mon) | 18h00-20h00 | Introduction to ML for Health Outcomes & R/Quarto Workflow | Prediction vs explanation, outcome types, supervised vs unsupervised learning, leakage risks, data preparation |
+| 2 | 1 | 23/09/2026 (Wed) | 18h00-20h00 | Resampling and Performance Metrics | Train/test split, cross-validation, bootstrap, RMSE, MAE, AUC, F1, log-loss, Brier score |
+| 3 | 1 | 25/09/2026 (Fri) | 18h00-20h00 | Linear and Regularized Models | GLM, logistic regression, ridge, lasso, elastic net, shrinkage, high-dimensional predictors |
+| 4 | 1 | 27/09/2026 (Sun) | 10h00-12h00 | Tree-Based Models, Random Forests, Boosting & Ensembles | CART, random forests, variable importance, XGBoost, LightGBM, SVM, kNN, stacking |
+| 5 | 2 | 28/09/2026 (Mon) | 18h00-20h00 | Hyperparameter Tuning, Model Selection & Benchmarking | Grid/random search, nested CV, optimism, fair comparison, benchmark tables |
+| 6 | 2 | 30/09/2026 (Wed) | 18h00-20h00 | Calibration and Clinical Utility | Calibration curves, discrimination vs calibration, thresholds, sensitivity, specificity, ROC-AUC |
+| 7 | 2 | 02/10/2026 (Fri) | 18h00-20h00 | Model Interpretation, Explainability & Clustering for Phenotyping | Permutation importance, PDP, ICE, ALE, SHAP, k-means, hierarchical clustering, cluster profiling |
+| 8 | 2 | 04/10/2026 (Sun) | 10h00-12h00 | End-to-End ML Pipeline and Mini-Project | Full workflow: prepare, fit or cluster, evaluate, tune/compare, calibrate, interpret, report |
+
+: `ML4HOR` detailed schedule {tbl-colwidths="[4, 5, 12, 9, 27, 43]"}
+
+# Course Materials
+
+- Slides and self-contained notebooks distributed before each session
+- R scripts, datasets, and exercises (shared repository)
+- Exercises reviewed and corrected during sessions
+
+# Assessment
+
+Each course ends with a short reproducible Quarto report or mini-project, presented and discussed in Session 8.
+
+# About the Instructor
+
+Imad EL BADISY, PhD, is a biostatistician working on statistical and machine learning methods for health data, with a focus on survival analysis. Full profile, publications, and R packages: [elbadisyimad.com](https://elbadisyimad.com)
+
+# Policies
+
+**Language:** Teaching in French, with English for statistical and methodological terminology.\
+**Software:** R ($\geq$ 4.4) and RStudio required.\
+**Attendance:** Full attendance at all 8 sessions is recommended given the cumulative structure.

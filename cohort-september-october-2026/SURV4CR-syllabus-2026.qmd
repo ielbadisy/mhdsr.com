@@ -1,0 +1,98 @@
+---
+title: "SURV4CR: Survival Analysis for Clinical Research with R"
+subtitle: "Full Program, September/October 2026 Cohort"
+author: "Imad EL BADISY, PhD"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+    include-in-header:
+      text: |
+        \usepackage{amsmath}
+        \usepackage{graphicx}
+        \usepackage{booktabs}
+        \usepackage{hyperref}
+        \usepackage{geometry}
+        \geometry{margin=2.5cm}
+        \usepackage{array}
+        \usepackage{xcolor}
+        \usepackage{enumitem}
+        \setlength{\tabcolsep}{3pt}
+        \renewcommand{\arraystretch}{1.12}
+---
+
+# Course Overview
+
+**Title:** Survival Analysis for Clinical Research with R\
+**Format:** Online, cohort-based\
+**Duration:** 2 weeks, 8 sessions, 2 hours per session, 16 contact hours\
+**Dates:** 05/10/2026 – 18/10/2026\
+**Days:** Monday, Wednesday, Friday (18h00 to 20h00), Sunday (10h00 to 12h00)\
+**Time:** Morocco time\
+**Price:** 150€ (1500 MAD)\
+**Instructor:** Imad EL BADISY, PhD\
+**Contact:** [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com) | [elbadisyimad.com](https://elbadisyimad.com)
+
+## Course Description
+
+`SURV4CR` provides a practical and methodologically rigorous introduction to survival analysis for clinical research using R. It covers the full time-to-event analysis workflow: survival data structure, censoring, Kaplan-Meier estimation, log-rank tests, Cox regression, proportional hazards diagnostics, competing risks, RMST, survival machine learning, dynamic RMST analysis, and temporal phenotyping.
+
+The course emphasizes clinical interpretation, correct handling of censoring, model assumptions, reproducible analysis, and responsible use of machine learning for time-to-event outcomes.
+
+## Target Audience
+
+Clinicians, clinical researchers, epidemiologists, PhD students, and analysts working with follow-up data. Basic R and regression concepts recommended.
+
+## Prerequisites
+
+Basic familiarity with R and regression (as covered in `BIOSTATR`) is recommended but not mandatory.
+
+## Learning Objectives
+
+By the end of `SURV4CR`, participants will be able to:
+
+1. define time origin, event, follow-up time, and censoring mechanism;
+2. structure survival data using R;
+3. estimate and interpret Kaplan-Meier curves and perform log-rank tests;
+4. fit and assess Cox proportional hazards models, including diagnostics and extensions;
+5. analyze competing risks using cumulative incidence and Fine-Gray models;
+6. use RMST as a clinically interpretable survival estimand;
+7. fit, evaluate, and interpret survival machine learning models;
+8. compute dynamic RMST curves and apply temporal clustering for survival phenotyping;
+9. produce a reproducible survival analysis report.
+
+# Detailed Schedule
+
+| No. | Week | Date | Time | Topic | Main Content |
+|---:|---|---|---|---|---|
+| 1 | 1 | 05/10/2026 (Mon) | 18h00-20h00 | Survival Data Structure, Study Design & Kaplan-Meier/Log-Rank | Time-to-event outcomes, censoring, `Surv()` objects, Kaplan-Meier estimator, median survival, log-rank test |
+| 2 | 1 | 07/10/2026 (Wed) | 18h00-20h00 | Cox Proportional Hazards Model | Cox model, hazard ratios, partial likelihood, adjusted models, PH assumption, Schoenfeld residuals |
+| 3 | 1 | 09/10/2026 (Fri) | 18h00-20h00 | Cox Model Extensions | Stratified Cox models, time-varying covariates and effects, frailty models, clustered survival data |
+| 4 | 1 | 11/10/2026 (Sun) | 10h00-12h00 | Competing Risks and Flexible Parametric Models | Cause-specific hazards, cumulative incidence, Fine-Gray model, flexible parametric survival models, cure models |
+| 5 | 2 | 12/10/2026 (Mon) | 18h00-20h00 | RMST as a Clinical Estimand | RMST definition, difference and ratio, choice of time horizon, interpretation under non-proportional hazards |
+| 6 | 2 | 14/10/2026 (Wed) | 18h00-20h00 | Survival ML: Foundations, Evaluation & Tuning | Penalized Cox, random survival forests, oblique forests, IPCW metrics, C-index, Brier score, cross-validation |
+| 7 | 2 | 16/10/2026 (Fri) | 18h00-20h00 | Survival ML Interpretation, Dynamic RMST & Temporal Phenotyping | SHAP, local explanations, dynamic RMST curves with `tvrmst`, temporal clustering with `unsurv` |
+| 8 | 2 | 18/10/2026 (Sun) | 10h00-12h00 | End-to-End Survival Analysis Project | Complete workflow: KM, Cox, RMST, survival ML, interpretation, dynamic RMST, phenotyping |
+
+: `SURV4CR` detailed schedule {tbl-colwidths="[4, 5, 12, 9, 27, 43]"}
+
+# Course Materials
+
+- Slides and self-contained notebooks distributed before each session
+- R scripts, datasets, and exercises (shared repository)
+- Exercises reviewed and corrected during sessions
+
+# Assessment
+
+Each course ends with a short reproducible Quarto report or mini-project, presented and discussed in Session 8.
+
+# About the Instructor
+
+Imad EL BADISY, PhD, is a biostatistician working on statistical and machine learning methods for health data, with a focus on survival analysis. Full profile, publications, and R packages: [elbadisyimad.com](https://elbadisyimad.com)
+
+# Policies
+
+**Language:** Teaching in French, with English for statistical and methodological terminology.\
+**Software:** R ($\geq$ 4.4) and RStudio required.\
+**Attendance:** Full attendance at all 8 sessions is recommended given the cumulative structure.

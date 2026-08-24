@@ -1,0 +1,80 @@
+---
+title: "&Agrave; propos"
+pagetitle: "MHDSR - &Agrave; propos"
+lang: fr
+description: "&Agrave; propos de MHDSR et de son formateur."
+page-layout: full
+title-block-banner: false
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+---
+
+## MHDSR
+
+**Quoi.** MHDSR (M&eacute;thodes en science des donn&eacute;es de sant&eacute; avec R) est un parcours de formation en direct, en cohorte, couvrant la biostatistique appliqu&eacute;e, l'apprentissage automatique, l'analyse de survie et la synth&egrave;se de donn&eacute;es probantes, enseign&eacute; en R avec des flux de travail reproductibles sous Quarto. Il comprend quatre cours, **BIOSTATR**, **ML4HOR**, **SURV4CR** et **METAR**, qui peuvent &ecirc;tre suivis ind&eacute;pendamment ou comme un parcours complet.
+
+```{r}
+#| label: fig-pathway-fr
+#| fig-cap: "Le parcours MHDSR"
+#| out-width: "100%"
+
+library(DiagrammeR)
+
+grViz("
+digraph mhdsr_pathway_fr {
+
+  graph [layout = dot, rankdir = LR, bgcolor = transparent, nodesep = 0.5, ranksep = 0.8]
+  node [shape = box, style = 'filled,rounded', fontname = 'Helvetica', fontsize = 13,
+        color = '#C2410C', fillcolor = '#FFEDD5', fontcolor = '#111827', penwidth = 1.4]
+  edge [color = '#0284C7', penwidth = 1.2, arrowsize = 0.8]
+
+  BIOSTATR [label = 'BIOSTATR\\nFondations']
+  ML4HOR   [label = 'ML4HOR\\nPrédiction']
+  SURV4CR  [label = 'SURV4CR\\nÉvénements/temps']
+  METAR    [label = 'METAR\\nSynthèse']
+
+  {rank = same; BIOSTATR; ML4HOR; SURV4CR; METAR}
+
+  BIOSTATR -> ML4HOR -> SURV4CR -> METAR
+}
+")
+```
+
+Chaque cours peut &ecirc;tre suivi ind&eacute;pendamment (aucun pr&eacute;requis n'est obligatoire), mais l'ordre ci-dessus est recommand&eacute; pour les participants souhaitant une ma&icirc;trise compl&egrave;te.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+**{{< fa bullseye >}} Pourquoi**
+
+Les chercheurs en sant&eacute; apprennent souvent les statistiques et R comme des sujets s&eacute;par&eacute;s, d&eacute;connect&eacute;s des flux de travail reproductibles attendus en publication et en pratique clinique. MHDSR comble cet &eacute;cart : chaque cours associe la m&eacute;thodologie sous-jacente &agrave; une mise en &oelig;uvre pratique en R et se termine par un rapport Quarto reproductible.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**{{< fa users >}} Pour qui**
+
+Cliniciens, chercheurs, doctorants, professionnels de la sant&eacute; publique, et analystes souhaitant une introduction rigoureuse et pratique &agrave; l'analyse moderne des donn&eacute;es de sant&eacute; avec R. Aucune connaissance statistique avanc&eacute;e n'est requise pour **BIOSTATR** ; les trois autres cours s'appuient dessus mais peuvent &ecirc;tre suivis ind&eacute;pendamment.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**{{< fa clipboard-list >}} Ce que vous recevez**
+
+S&eacute;ances en direct, diapositives, notebooks, jeux de donn&eacute;es et exercices pour chaque s&eacute;ance, avec retour direct en petite cohorte, se terminant par un mini-projet Quarto reproductible.
+:::
+
+:::
+<!-- end grid -->
+
+[Voir le catalogue complet &rarr;](courses/index.qmd)
+
+## Le formateur
+
+MHDSR est con&ccedil;u et enseign&eacute; par **Imad El Badisy, PhD**, ing&eacute;nieur de recherche en science des donn&eacute;es de sant&eacute;.
+
+[Voir le profil complet sur elbadisyimad.com &rarr;](https://elbadisyimad.com)
+
+## Contact
+
+Pour l'inscription, des questions sur un cours, ou une demande de formation de groupe/sur mesure : [elbadisyimad@gmail.com](mailto:elbadisyimad@gmail.com)

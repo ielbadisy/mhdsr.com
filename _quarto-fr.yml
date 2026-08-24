@@ -1,0 +1,34 @@
+project:
+  render:
+    - fr/index.qmd
+    - fr/courses/index.qmd
+    - fr/courses/biostatr.qmd
+    - fr/courses/ml4hor.qmd
+    - fr/courses/surv4cr.qmd
+    - fr/courses/metar.qmd
+    - fr/about.qmd
+
+website:
+  description: "MHDSR (M&eacute;thodes en science des donn&eacute;es de sant&eacute; avec R) : cours en direct, en cohorte, en biostatistique appliqu&eacute;e, apprentissage automatique, analyse de survie et m&eacute;ta-analyse, enseign&eacute;s en R."
+  navbar:
+    logo: logo_mhdsr.png
+    title: false
+    left:
+      - text: "Accueil"
+        href: fr/index.qmd
+      - text: "Cours"
+        href: fr/courses/index.qmd
+      - text: "&Agrave; propos"
+        href: fr/about.qmd
+    right:
+      - text: "elbadisyimad.com"
+        href: "https://elbadisyimad.com"
+      - text: "Fran&ccedil;ais"
+        menu:
+          - text: "English"
+            href: index.html
+          - text: "Fran&ccedil;ais"
+            href: fr/index.qmd
+  page-footer:
+    left: "&#169; 2026 MHDSR &middot; M&eacute;thodes en science des donn&eacute;es de sant&eacute; avec R"
+    right: "<a href=\"https://elbadisyimad.com\">elbadisyimad.com</a>"
