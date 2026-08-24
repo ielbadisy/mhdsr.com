@@ -8,8 +8,10 @@
 }
 
 .fiche {
-  max-width: 980px;
+  width: 96%;
+  max-width: 1600px;
   margin: 0 auto;
+  box-sizing: border-box;
   font-size: 0.95rem;
   line-height: 1.45;
 }
@@ -58,7 +60,7 @@
 .fiche-grid {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
-  gap: 0 2.2em;
+  gap: 0 3.25em;
   align-items: start;
 }
 
@@ -166,7 +168,7 @@
   margin-left: 0.6em;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .fiche-grid {
     grid-template-columns: 1fr;
   }
