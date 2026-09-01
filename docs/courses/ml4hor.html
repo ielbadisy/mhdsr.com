@@ -357,30 +357,31 @@ Machine Learning for Health Outcomes with R<span class="fiche-tag">Prediction</s
 </p>
 </div>
 <div class="fiche-meta">
-<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 16 hours · 8 sessions</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 21/09 – 04/10/2026</span></p>
+<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 18 hours · 9 sessions · 3 weeks</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 28/09 – 16/10/2026</span></p>
 </div>
 </div>
 <div class="fiche-grid">
 <div>
 <section id="course-description" class="level3">
 <h3 class="anchored" data-anchor-id="course-description">Course description</h3>
-<p><strong>ML4HOR</strong> provides a practical introduction to machine learning for health outcomes research using R. The course covers the complete supervised learning workflow across classification, regression, and time-to-event (survival) outcomes, and explores clustering as a final extension for patient phenotyping, subgroup discovery, and exploratory health-data analysis.</p>
-<p>The course emphasizes validation, data leakage prevention, appropriate performance metrics (including censoring-aware metrics for survival), calibration, interpretability, clinical relevance, and reproducible reporting.</p>
+<p><strong>ML4HOR</strong> is the advanced course of the MHDSR pathway: a practical introduction to machine learning for health outcomes research using R. It covers the full supervised workflow (from classic models to boosting and neural networks), unsupervised learning and clustering for patient phenotyping, honest tuning and model selection, evaluation and validation, and interpretability.</p>
+<p>The final sessions move from analysis to a reproducible ML pipeline driven by a command-line agent, including LLM-assisted tasks such as structured extraction and text classification, with their limits and guardrails.</p>
+<p>The course emphasizes validation, data-leakage prevention, appropriate performance metrics, calibration, interpretability, and clinical relevance.</p>
 </section>
 <section id="learning-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h3>
 <p>By the end of <strong>ML4HOR</strong>, participants will be able to:</p>
 <ol type="1">
-<li>formulate machine learning questions in health outcomes research;</li>
-<li>prepare tabular health datasets for ML analysis;</li>
-<li>fit supervised learners for classification, regression, and time-to-event (survival) outcomes;</li>
-<li>evaluate models using resampling-based validation and censoring-aware metrics;</li>
-<li>tune and compare learners fairly;</li>
-<li>assess discrimination, calibration, and clinical usefulness;</li>
-<li>interpret ML models using global and local explanation methods;</li>
+<li>frame supervised and unsupervised problems in health outcomes research;</li>
+<li>prepare tabular health datasets and avoid data leakage;</li>
 <li>apply clustering for patient phenotyping and subgroup discovery;</li>
-<li>distinguish prediction, clustering, and causal estimation;</li>
-<li>produce a reproducible ML report with Quarto.</li>
+<li>fit penalized regression, tree ensembles, boosting, and multilayer perceptrons;</li>
+<li>tune and select models with nested cross-validation and fair comparison;</li>
+<li>evaluate discrimination, calibration, and clinical usefulness, and choose thresholds;</li>
+<li>validate models internally and externally;</li>
+<li>interpret models with permutation importance, PDP/ICE, and SHAP;</li>
+<li>drive a reproducible ML pipeline with a command-line agent under version control;</li>
+<li>use LLMs for structured extraction and text classification, and assess their outputs.</li>
 </ol>
 </section>
 </div>
@@ -393,7 +394,7 @@ Machine Learning for Health Outcomes with R<span class="fiche-tag">Prediction</s
 No.
 </th>
 <th>
-Topic
+Session
 </th>
 </tr>
 <tr>
@@ -401,7 +402,7 @@ Topic
 1
 </td>
 <td>
-Introduction to ML for health outcomes &amp; R/Quarto workflow
+<strong>Machine learning fundamentals</strong>: supervised vs unsupervised, bias-variance, train/test, cross-validation, resampling
 </td>
 </tr>
 <tr>
@@ -409,7 +410,7 @@ Introduction to ML for health outcomes &amp; R/Quarto workflow
 2
 </td>
 <td>
-Resampling and performance metrics for classification, regression &amp; survival
+<strong>Data preparation</strong>: preprocessing, missing data, encoding, standardization, feature engineering, data leakage
 </td>
 </tr>
 <tr>
@@ -417,7 +418,7 @@ Resampling and performance metrics for classification, regression &amp; survival
 3
 </td>
 <td>
-Linear and regularized models (incl.&nbsp;penalized Cox)
+<strong>Unsupervised learning and clustering</strong>: distances, k-means, hierarchical clustering, choosing K, silhouette, stability, PCA for exploration and visualization
 </td>
 </tr>
 <tr>
@@ -425,7 +426,7 @@ Linear and regularized models (incl.&nbsp;penalized Cox)
 4
 </td>
 <td>
-Tree-based models, random forests, boosting, random survival forests &amp; ensembles
+<strong>Classic supervised models</strong>: penalized regression, decision trees, random forests
 </td>
 </tr>
 <tr>
@@ -433,7 +434,7 @@ Tree-based models, random forests, boosting, random survival forests &amp; ensem
 5
 </td>
 <td>
-Hyperparameter tuning, model selection &amp; benchmarking
+<strong>Boosting and neural networks</strong>: gradient boosting, multilayer perceptron, regularization, early stopping, model comparison
 </td>
 </tr>
 <tr>
@@ -441,7 +442,7 @@ Hyperparameter tuning, model selection &amp; benchmarking
 6
 </td>
 <td>
-Calibration and clinical utility
+<strong>Model tuning and selection</strong>: hyperparameters, grid/random search, nested cross-validation, overfitting
 </td>
 </tr>
 <tr>
@@ -449,7 +450,7 @@ Calibration and clinical utility
 7
 </td>
 <td>
-Model interpretation, explainability &amp; clustering for phenotyping
+<strong>Evaluation and validation</strong>: AUC, sensitivity/specificity, PPV/NPV, F1, calibration, Brier score, thresholds, internal/external validation
 </td>
 </tr>
 <tr>
@@ -457,7 +458,15 @@ Model interpretation, explainability &amp; clustering for phenotyping
 8
 </td>
 <td>
-End-to-end ML pipeline and mini-project
+<strong>Interpretability</strong>: variable importance, permutation importance, PDP/ICE, SHAP, local vs global interpretation
+</td>
+</tr>
+<tr>
+<td>
+9
+</td>
+<td>
+<strong>Agents, LLMs and a reproducible ML pipeline</strong>: CLI agent, code generation/execution/review, versioning, structured extraction, LLM classification, limits and guardrails
 </td>
 </tr>
 </tbody></table>
@@ -476,7 +485,7 @@ Researchers, PhD students, clinicians, public health professionals, data analyst
 Prerequisites
 </dt>
 <dd>
-Basic R and statistical literacy recommended, as covered in <a href="../courses/biostatr.html"><strong>BIOSTATR</strong></a>
+Basic R and statistical literacy, as covered in <a href="../courses/biostatr.html"><strong>BIOSTATR</strong></a>
 </dd>
 <dt>
 Format
@@ -488,7 +497,7 @@ Live sessions, slides, notebooks, datasets, exercises
 Schedule
 </dt>
 <dd>
-Mon/Wed/Fri 18h00–20h00, Sun 10h00–12h00 (Morocco time)
+Mon/Wed/Fri 18h00–20h00 (Morocco time) · 3 weeks
 </dd>
 <dt>
 Tools
@@ -501,12 +510,6 @@ Assessment
 </dt>
 <dd>
 Reproducible Quarto mini-project
-</dd>
-<dt>
-Next step
-</dt>
-<dd>
-<a href="../courses/metar.html"><strong>METAR</strong></a> or <a href="../courses/agentr.html"><strong>AGENTR</strong></a>
 </dd>
 </dl>
 </div>

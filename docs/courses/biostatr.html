@@ -357,30 +357,30 @@ Applied Biostatistics with R<span class="fiche-tag">Foundations</span>
 </p>
 </div>
 <div class="fiche-meta">
-<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 16 hours · 8 sessions</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 07/09 – 20/09/2026</span></p>
+<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 18 hours · 9 sessions · 3 weeks</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 07/09 – 25/09/2026</span></p>
 </div>
 </div>
 <div class="fiche-grid">
 <div>
 <section id="course-description" class="level3">
 <h3 class="anchored" data-anchor-id="course-description">Course description</h3>
-<p><strong>BIOSTATR</strong> is the entry point of the MHDSR pathway: a practical, rigorous introduction to applied biostatistics for health research using R. It gives participants the foundations everyone else builds on (study design, descriptive statistics, inference, regression, survival analysis, and reproducible reporting) before they move on to <strong>ML4HOR</strong>, <strong>METAR</strong>, or <strong>AGENTR</strong>.</p>
-<p>The course emphasizes estimation, interpretation, reproducibility, and appropriate use of statistical methods in clinical research.</p>
+<p><strong>BIOSTATR</strong> is the base course of the MHDSR pathway: a practical, rigorous introduction to applied biostatistics for health research using R. It takes participants from a clean R and data-manipulation workflow through inference, regression, survival analysis, missing-data handling, and meta-analysis, all with reproducible Quarto reporting.</p>
+<p>No statistics or programming background is required. The course emphasizes estimation, interpretation, reproducibility, and the appropriate use of statistical methods in clinical research. Meta-analysis is taught here as a biostatistical method, not as a review-methodology course.</p>
 </section>
 <section id="learning-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h3>
 <p>By the end of <strong>BIOSTATR</strong>, participants will be able to:</p>
 <ol type="1">
-<li>formulate health research questions in statistical terms;</li>
-<li>identify study designs and variable types;</li>
-<li>organize reproducible analyses using R and Quarto;</li>
-<li>summarize and visualize health data appropriately;</li>
-<li>interpret confidence intervals, p-values, and effect estimates;</li>
-<li>compare groups using suitable statistical tests;</li>
-<li>fit and interpret linear and logistic regression models;</li>
-<li>understand the basics of survival analysis and diagnostic accuracy;</li>
-<li>recognize issues related to missing data and causal thinking;</li>
-<li>produce a reproducible statistical report.</li>
+<li>organize a reproducible analysis with R, Quarto, and version control;</li>
+<li>import, clean, reshape, and quality-check health datasets;</li>
+<li>summarize and visualize health data appropriately, including stratified summaries;</li>
+<li>interpret confidence intervals, p-values, effect sizes, power, and sample size;</li>
+<li>compare groups with suitable tests for quantitative and qualitative outcomes;</li>
+<li>fit and interpret linear and logistic regression, including confounding and interactions;</li>
+<li>analyze time-to-event data with Kaplan-Meier, the log-rank test, and the Cox model;</li>
+<li>model non-linear and time-dependent effects with flexible survival models;</li>
+<li>handle missing data with multiple imputation and Rubin’s rules;</li>
+<li>carry out a meta-analysis: effect sizes, fixed- and random-effects models, heterogeneity, and publication bias.</li>
 </ol>
 </section>
 </div>
@@ -393,7 +393,7 @@ Applied Biostatistics with R<span class="fiche-tag">Foundations</span>
 No.
 </th>
 <th>
-Topic
+Session
 </th>
 </tr>
 <tr>
@@ -401,7 +401,7 @@ Topic
 1
 </td>
 <td>
-Introduction to biostatistics, study design &amp; reproducible R/Quarto workflow
+<strong>Introduction to R</strong>: environment, projects, scripts, objects and types, import/export, good practices, reproducible reports
 </td>
 </tr>
 <tr>
@@ -409,7 +409,7 @@ Introduction to biostatistics, study design &amp; reproducible R/Quarto workflow
 2
 </td>
 <td>
-Descriptive statistics &amp; data visualization
+<strong>Data manipulation</strong>: filtering, transformation, joins, pivots, dates, strings, recoding, quality control
 </td>
 </tr>
 <tr>
@@ -417,7 +417,7 @@ Descriptive statistics &amp; data visualization
 3
 </td>
 <td>
-Estimation, statistical inference &amp; group comparisons
+<strong>Descriptive statistics and visualization</strong>: descriptive statistics, distributions, summary tables, Table 1, graphics, stratification
 </td>
 </tr>
 <tr>
@@ -425,7 +425,7 @@ Estimation, statistical inference &amp; group comparisons
 4
 </td>
 <td>
-Correlation and linear regression
+<strong>Statistical inference and hypothesis testing</strong>: estimation, confidence intervals, tests, effect sizes, power, sample size, quantitative and qualitative comparisons
 </td>
 </tr>
 <tr>
@@ -433,7 +433,7 @@ Correlation and linear regression
 5
 </td>
 <td>
-Logistic regression and GLMs
+<strong>Linear and logistic regression</strong>: adjusted coefficients, odds ratios, confounding, interactions, diagnostics, predictions, ROC curve
 </td>
 </tr>
 <tr>
@@ -441,7 +441,7 @@ Logistic regression and GLMs
 6
 </td>
 <td>
-Survival analysis and diagnostic accuracy
+<strong>Survival analysis</strong>: censoring, Kaplan-Meier, log-rank test, Cox model, hazard ratios, proportional-hazards assumption
 </td>
 </tr>
 <tr>
@@ -449,7 +449,7 @@ Survival analysis and diagnostic accuracy
 7
 </td>
 <td>
-Missing data, causal thinking, sample size &amp; reporting
+<strong>Flexible survival models</strong>: non-linearity, splines, restricted cubic splines, flexible parametric models, time-dependent effects, survival predictions
 </td>
 </tr>
 <tr>
@@ -457,7 +457,15 @@ Missing data, causal thinking, sample size &amp; reporting
 8
 </td>
 <td>
-Final synthesis and mini-project
+<strong>Missing data and multiple imputation</strong>: MCAR/MAR/MNAR, complete-case analysis, single and multiple imputation, imputation model, Rubin’s rules, sensitivity analyses
+</td>
+</tr>
+<tr>
+<td>
+9
+</td>
+<td>
+<strong>Meta-analysis</strong>: effect sizes, fixed- and random-effects models, forest plot, heterogeneity, meta-regression, publication bias
 </td>
 </tr>
 </tbody></table>
@@ -470,7 +478,7 @@ Final synthesis and mini-project
 Audience
 </dt>
 <dd>
-Health researchers, clinicians, students with no statistics background required
+Health researchers, clinicians, students; no statistics background required
 </dd>
 <dt>
 Prerequisites
@@ -488,7 +496,7 @@ Live sessions, slides, notebooks, datasets, exercises
 Schedule
 </dt>
 <dd>
-Mon/Wed/Fri 18h00–20h00, Sun 10h00–12h00 (Morocco time)
+Mon/Wed/Fri 18h00–20h00 (Morocco time) · 3 weeks
 </dd>
 <dt>
 Tools
@@ -506,7 +514,7 @@ Reproducible Quarto mini-project
 Next step
 </dt>
 <dd>
-<a href="../courses/ml4hor.html"><strong>ML4HOR</strong></a>, <a href="../courses/metar.html"><strong>METAR</strong></a>, or <a href="../courses/agentr.html"><strong>AGENTR</strong></a>
+<a href="../courses/ml4hor.html"><strong>ML4HOR</strong></a> – Machine Learning for Health Outcomes with R
 </dd>
 </dl>
 </div>

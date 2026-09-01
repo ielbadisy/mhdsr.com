@@ -357,30 +357,31 @@ Apprentissage automatique pour les résultats de santé avec R<span class="fiche
 </p>
 </div>
 <div class="fiche-meta">
-<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 16 heures · 8 séances</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 21/09 – 04/10/2026</span></p>
+<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 18 heures · 9 séances · 3 semaines</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 28/09 – 16/10/2026</span></p>
 </div>
 </div>
 <div class="fiche-grid">
 <div>
 <section id="description-du-cours" class="level3">
 <h3 class="anchored" data-anchor-id="description-du-cours">Description du cours</h3>
-<p><strong>ML4HOR</strong> offre une introduction pratique à l’apprentissage automatique pour la recherche sur les résultats de santé avec R. Le cours couvre le flux complet d’apprentissage supervisé pour des résultats de classification, de régression et de survie (temps jusqu’à l’événement), et explore le clustering comme extension finale pour le phénotypage des patients, la découverte de sous-groupes, et l’analyse exploratoire des données de santé.</p>
-<p>Le cours met l’accent sur la validation, la prévention des fuites de données, les mesures de performance appropriées (y compris les mesures tenant compte de la censure pour la survie), la calibration, l’interprétabilité, la pertinence clinique, et le rapport reproductible.</p>
+<p><strong>ML4HOR</strong> est le cours avancé du parcours MHDSR : une introduction pratique à l’apprentissage automatique pour la recherche sur les résultats de santé avec R. Il couvre le flux supervisé complet (des modèles classiques au boosting et aux réseaux de neurones), l’apprentissage non supervisé et le clustering pour le phénotypage des patients, le réglage et la sélection honnêtes des modèles, l’évaluation et la validation, et l’interprétabilité.</p>
+<p>Les dernières séances passent de l’analyse à un pipeline ML reproductible piloté par un agent en ligne de commande, avec des tâches assistées par LLM comme l’extraction structurée et la classification de texte, ainsi que leurs limites et garde-fous.</p>
+<p>Le cours met l’accent sur la validation, la prévention des fuites de données, les mesures de performance appropriées, la calibration, l’interprétabilité et la pertinence clinique.</p>
 </section>
 <section id="objectifs-dapprentissage" class="level3">
 <h3 class="anchored" data-anchor-id="objectifs-dapprentissage">Objectifs d’apprentissage</h3>
 <p>À l’issue de <strong>ML4HOR</strong>, les participants seront capables de :</p>
 <ol type="1">
-<li>formuler des questions d’apprentissage automatique en recherche sur les résultats de santé ;</li>
-<li>préparer des jeux de données tabulaires de santé pour l’analyse ML ;</li>
-<li>ajuster des modèles supervisés pour des résultats de classification, de régression et de survie ;</li>
-<li>évaluer des modèles par validation par rééchantillonnage et par des mesures tenant compte de la censure ;</li>
-<li>régler et comparer les modèles de manière équitable ;</li>
-<li>évaluer la discrimination, la calibration et l’utilité clinique ;</li>
-<li>interpréter les modèles ML avec des méthodes d’explication globales et locales ;</li>
+<li>formuler des problèmes supervisés et non supervisés en recherche sur les résultats de santé ;</li>
+<li>préparer des jeux de données tabulaires de santé et éviter les fuites de données ;</li>
 <li>appliquer le clustering au phénotypage des patients et à la découverte de sous-groupes ;</li>
-<li>distinguer prédiction, clustering et estimation causale ;</li>
-<li>produire un rapport ML reproductible avec Quarto.</li>
+<li>ajuster régression pénalisée, ensembles d’arbres, boosting et perceptrons multicouches ;</li>
+<li>régler et sélectionner des modèles par validation croisée imbriquée et comparaison équitable ;</li>
+<li>évaluer discrimination, calibration et utilité clinique, et choisir des seuils ;</li>
+<li>valider des modèles en interne et en externe ;</li>
+<li>interpréter des modèles avec permutation importance, PDP/ICE et SHAP ;</li>
+<li>piloter un pipeline ML reproductible avec un agent en ligne de commande sous contrôle de version ;</li>
+<li>utiliser des LLM pour l’extraction structurée et la classification de texte, et en évaluer les sorties.</li>
 </ol>
 </section>
 </div>
@@ -393,7 +394,7 @@ Apprentissage automatique pour les résultats de santé avec R<span class="fiche
 N°
 </th>
 <th>
-Sujet
+Séance
 </th>
 </tr>
 <tr>
@@ -401,7 +402,7 @@ Sujet
 1
 </td>
 <td>
-Introduction au ML pour les résultats de santé &amp; flux de travail R/Quarto
+<strong>Fondamentaux du machine learning</strong> : supervisé vs non supervisé, biais-variance, train/test, validation croisée, rééchantillonnage
 </td>
 </tr>
 <tr>
@@ -409,7 +410,7 @@ Introduction au ML pour les résultats de santé &amp; flux de travail R/Quarto
 2
 </td>
 <td>
-Rééchantillonnage et mesures de performance pour classification, régression &amp; survie
+<strong>Préparation des données</strong> : prétraitement, données manquantes, encodage, standardisation, feature engineering, fuite de données
 </td>
 </tr>
 <tr>
@@ -417,7 +418,7 @@ Rééchantillonnage et mesures de performance pour classification, régression &
 3
 </td>
 <td>
-Modèles linéaires et régularisés (dont Cox pénalisé)
+<strong>Apprentissage non supervisé et clustering</strong> : distances, k-means, clustering hiérarchique, choix de K, silhouette, stabilité, PCA pour exploration et visualisation
 </td>
 </tr>
 <tr>
@@ -425,7 +426,7 @@ Modèles linéaires et régularisés (dont Cox pénalisé)
 4
 </td>
 <td>
-Arbres, forêts aléatoires, boosting, forêts de survie aléatoires &amp; ensembles
+<strong>Modèles supervisés classiques</strong> : régression pénalisée, arbres, forêts aléatoires
 </td>
 </tr>
 <tr>
@@ -433,7 +434,7 @@ Arbres, forêts aléatoires, boosting, forêts de survie aléatoires &amp; ensem
 5
 </td>
 <td>
-Réglage des hyperparamètres, sélection et comparaison de modèles
+<strong>Boosting et réseaux de neurones</strong> : gradient boosting, MLP, régularisation, early stopping, comparaison de modèles
 </td>
 </tr>
 <tr>
@@ -441,7 +442,7 @@ Réglage des hyperparamètres, sélection et comparaison de modèles
 6
 </td>
 <td>
-Calibration et utilité clinique
+<strong>Réglage et sélection des modèles</strong> : tuning, grille/aléatoire, validation croisée imbriquée, sur-apprentissage
 </td>
 </tr>
 <tr>
@@ -449,7 +450,7 @@ Calibration et utilité clinique
 7
 </td>
 <td>
-Interprétation des modèles, explicabilité &amp; clustering pour le phénotypage
+<strong>Évaluation et validation</strong> : AUC, sensibilité/spécificité, PPV/NPV, F1, calibration, Brier, seuils, validation interne/externe
 </td>
 </tr>
 <tr>
@@ -457,7 +458,15 @@ Interprétation des modèles, explicabilité &amp; clustering pour le phénotypa
 8
 </td>
 <td>
-Pipeline ML de bout en bout et mini-projet
+<strong>Interprétabilité</strong> : importance des variables, permutation, PDP/ICE, SHAP, interprétation locale/globale
+</td>
+</tr>
+<tr>
+<td>
+9
+</td>
+<td>
+<strong>Agents, LLM et pipeline ML reproductible</strong> : agent CLI, génération/exécution/revue du code, versionnage, extraction structurée, classification par LLM, limites et garde-fous
 </td>
 </tr>
 </tbody></table>
@@ -476,7 +485,7 @@ Chercheurs, doctorants, cliniciens, professionnels de la santé publique, analys
 Prérequis
 </dt>
 <dd>
-R de base et culture statistique recommandés, comme couvert dans <a href="../../fr/courses/biostatr.html"><strong>BIOSTATR</strong></a>
+R de base et culture statistique, comme couvert dans <a href="../../fr/courses/biostatr.html"><strong>BIOSTATR</strong></a>
 </dd>
 <dt>
 Format
@@ -488,7 +497,7 @@ Séances en direct, diapositives, notebooks, jeux de données, exercices
 Horaire
 </dt>
 <dd>
-Lun/mer/ven 18h00–20h00, dim 10h00–12h00 (heure du Maroc)
+Lun/mer/ven 18h00–20h00 (heure du Maroc) · 3 semaines
 </dd>
 <dt>
 Outils
@@ -501,12 +510,6 @@ R, RStudio, Quarto
 </dt>
 <dd>
 Mini-projet Quarto reproductible
-</dd>
-<dt>
-Étape suivante
-</dt>
-<dd>
-<a href="../../fr/courses/metar.html"><strong>METAR</strong></a> ou <a href="../../fr/courses/agentr.html"><strong>AGENTR</strong></a>
 </dd>
 </dl>
 </div>

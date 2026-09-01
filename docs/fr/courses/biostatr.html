@@ -357,30 +357,30 @@ Biostatistique appliquée avec R<span class="fiche-tag">Fondations</span>
 </p>
 </div>
 <div class="fiche-meta">
-<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 16 heures · 8 séances</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 07/09 – 20/09/2026</span></p>
+<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 18 heures · 9 séances · 3 semaines</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 07/09 – 25/09/2026</span></p>
 </div>
 </div>
 <div class="fiche-grid">
 <div>
 <section id="description-du-cours" class="level3">
 <h3 class="anchored" data-anchor-id="description-du-cours">Description du cours</h3>
-<p><strong>BIOSTATR</strong> est le point d’entrée du parcours MHDSR : une introduction pratique et rigoureuse à la biostatistique appliquée à la recherche en santé avec R. Il donne aux participants les fondations sur lesquelles s’appuient tous les autres cours (plan d’étude, statistiques descriptives, inférence, régression, analyse de survie, et rapport reproductible) avant de passer à <strong>ML4HOR</strong>, <strong>METAR</strong> ou <strong>AGENTR</strong>.</p>
-<p>Le cours met l’accent sur l’estimation, l’interprétation, la reproductibilité, et l’utilisation appropriée des méthodes statistiques en recherche clinique.</p>
+<p><strong>BIOSTATR</strong> est le cours de base du parcours MHDSR : une introduction pratique et rigoureuse à la biostatistique appliquée à la recherche en santé avec R. Il mène les participants d’un flux de travail propre en R et en manipulation de données jusqu’à l’inférence, la régression, l’analyse de survie, le traitement des données manquantes et la méta-analyse, le tout avec des rapports reproductibles sous Quarto.</p>
+<p>Aucune connaissance préalable en statistique ou en programmation n’est requise. Le cours met l’accent sur l’estimation, l’interprétation, la reproductibilité et l’utilisation appropriée des méthodes statistiques en recherche clinique. La méta-analyse y est enseignée comme une méthode biostatistique, et non comme un cours de méthodologie de revue.</p>
 </section>
 <section id="objectifs-dapprentissage" class="level3">
 <h3 class="anchored" data-anchor-id="objectifs-dapprentissage">Objectifs d’apprentissage</h3>
 <p>À l’issue de <strong>BIOSTATR</strong>, les participants seront capables de :</p>
 <ol type="1">
-<li>formuler des questions de recherche en santé en termes statistiques ;</li>
-<li>identifier les plans d’étude et les types de variables ;</li>
-<li>organiser des analyses reproductibles avec R et Quarto ;</li>
-<li>résumer et visualiser les données de santé de manière appropriée ;</li>
-<li>interpréter les intervalles de confiance, les valeurs p et les tailles d’effet ;</li>
-<li>comparer des groupes à l’aide de tests statistiques adaptés ;</li>
-<li>ajuster et interpréter des modèles de régression linéaire et logistique ;</li>
-<li>comprendre les bases de l’analyse de survie et de la précision diagnostique ;</li>
-<li>repérer les enjeux liés aux données manquantes et au raisonnement causal ;</li>
-<li>produire un rapport statistique reproductible.</li>
+<li>organiser une analyse reproductible avec R, Quarto et le contrôle de version ;</li>
+<li>importer, nettoyer, restructurer et contrôler la qualité de jeux de données de santé ;</li>
+<li>résumer et visualiser les données de santé de manière appropriée, y compris de façon stratifiée ;</li>
+<li>interpréter intervalles de confiance, valeurs p, tailles d’effet, puissance et taille d’échantillon ;</li>
+<li>comparer des groupes avec des tests adaptés aux variables quantitatives et qualitatives ;</li>
+<li>ajuster et interpréter des régressions linéaire et logistique, avec confusion et interactions ;</li>
+<li>analyser des données de survie avec Kaplan-Meier, le test du log-rank et le modèle de Cox ;</li>
+<li>modéliser des effets non linéaires et dépendants du temps avec des modèles de survie flexibles ;</li>
+<li>traiter les données manquantes par imputation multiple et règles de Rubin ;</li>
+<li>conduire une méta-analyse : tailles d’effet, modèles à effets fixes et aléatoires, hétérogénéité, biais de publication.</li>
 </ol>
 </section>
 </div>
@@ -393,7 +393,7 @@ Biostatistique appliquée avec R<span class="fiche-tag">Fondations</span>
 N°
 </th>
 <th>
-Sujet
+Séance
 </th>
 </tr>
 <tr>
@@ -401,7 +401,7 @@ Sujet
 1
 </td>
 <td>
-Introduction à la biostatistique, plan d’étude &amp; flux de travail reproductible R/Quarto
+<strong>Introduction à R</strong> : environnement, projets, scripts, objets et types, import/export, bonnes pratiques, rapports reproductibles
 </td>
 </tr>
 <tr>
@@ -409,7 +409,7 @@ Introduction à la biostatistique, plan d’étude &amp; flux de travail reprodu
 2
 </td>
 <td>
-Statistiques descriptives &amp; visualisation des données
+<strong>Manipulation des données</strong> : filtrage, transformation, jointures, pivots, dates, chaînes de caractères, recodage, contrôle qualité
 </td>
 </tr>
 <tr>
@@ -417,7 +417,7 @@ Statistiques descriptives &amp; visualisation des données
 3
 </td>
 <td>
-Estimation, inférence statistique &amp; comparaisons de groupes
+<strong>Statistiques descriptives et visualisation</strong> : statistiques descriptives, distributions, tableaux de synthèse, Table 1, graphiques, stratification
 </td>
 </tr>
 <tr>
@@ -425,7 +425,7 @@ Estimation, inférence statistique &amp; comparaisons de groupes
 4
 </td>
 <td>
-Corrélation et régression linéaire
+<strong>Inférence statistique et tests d’hypothèses</strong> : estimation, intervalles de confiance, tests, tailles d’effet, puissance, taille d’échantillon, comparaisons quantitatives et qualitatives
 </td>
 </tr>
 <tr>
@@ -433,7 +433,7 @@ Corrélation et régression linéaire
 5
 </td>
 <td>
-Régression logistique et modèles linéaires généralisés
+<strong>Régression linéaire et logistique</strong> : coefficients ajustés, odds ratios, facteurs de confusion, interactions, diagnostics, prédictions, courbe ROC
 </td>
 </tr>
 <tr>
@@ -441,7 +441,7 @@ Régression logistique et modèles linéaires généralisés
 6
 </td>
 <td>
-Analyse de survie et précision diagnostique
+<strong>Analyse de survie</strong> : censure, Kaplan-Meier, test du log-rank, modèle de Cox, hazard ratios, hypothèse des risques proportionnels
 </td>
 </tr>
 <tr>
@@ -449,7 +449,7 @@ Analyse de survie et précision diagnostique
 7
 </td>
 <td>
-Données manquantes, raisonnement causal, taille d’échantillon &amp; rapport
+<strong>Modèles de survie flexibles</strong> : non-linéarité, splines, splines cubiques restreintes, modèles paramétriques flexibles, effets dépendants du temps, prédictions de survie
 </td>
 </tr>
 <tr>
@@ -457,7 +457,15 @@ Données manquantes, raisonnement causal, taille d’échantillon &amp; rapport
 8
 </td>
 <td>
-Synthèse finale et mini-projet
+<strong>Données manquantes et imputation multiple</strong> : MCAR/MAR/MNAR, analyse en cas complets, imputation simple et multiple, modèle d’imputation, règles de Rubin, analyses de sensibilité
+</td>
+</tr>
+<tr>
+<td>
+9
+</td>
+<td>
+<strong>Méta-analyse</strong> : tailles d’effet, modèles à effets fixes et aléatoires, forest plot, hétérogénéité, méta-régression, biais de publication
 </td>
 </tr>
 </tbody></table>
@@ -470,7 +478,7 @@ Synthèse finale et mini-projet
 Public
 </dt>
 <dd>
-Chercheurs en santé, cliniciens, étudiants, aucune connaissance préalable en statistique requise
+Chercheurs en santé, cliniciens, étudiants ; aucune connaissance préalable en statistique requise
 </dd>
 <dt>
 Prérequis
@@ -488,7 +496,7 @@ Séances en direct, diapositives, notebooks, jeux de données, exercices
 Horaire
 </dt>
 <dd>
-Lun/mer/ven 18h00–20h00, dim 10h00–12h00 (heure du Maroc)
+Lun/mer/ven 18h00–20h00 (heure du Maroc) · 3 semaines
 </dd>
 <dt>
 Outils
@@ -506,7 +514,7 @@ Mini-projet Quarto reproductible
 Étape suivante
 </dt>
 <dd>
-<a href="../../fr/courses/ml4hor.html"><strong>ML4HOR</strong></a>, <a href="../../fr/courses/metar.html"><strong>METAR</strong></a>, ou <a href="../../fr/courses/agentr.html"><strong>AGENTR</strong></a>
+<a href="../../fr/courses/ml4hor.html"><strong>ML4HOR</strong></a> – Apprentissage automatique pour les résultats de santé avec R
 </dd>
 </dl>
 </div>

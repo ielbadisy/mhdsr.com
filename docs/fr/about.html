@@ -352,13 +352,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="mhdsr" class="level2">
 <h2 class="anchored" data-anchor-id="mhdsr">MHDSR</h2>
-<p><strong>Quoi.</strong> MHDSR (Méthodes en science des données de santé avec R) est un parcours de formation en direct, en ligne, en cohorte, couvrant la biostatistique appliquée, l’apprentissage automatique, la synthèse de données probantes et la science des données agentique, enseigné en R avec des flux de travail reproductibles sous Quarto. Il comprend quatre cours, <strong>BIOSTATR</strong>, <strong>ML4HOR</strong>, <strong>METAR</strong> et <strong>AGENTR</strong>, qui peuvent être suivis indépendamment ou comme un parcours complet.</p>
+<p><strong>Quoi.</strong> MHDSR (Méthodes en science des données de santé avec R) est un parcours de formation en direct, en ligne, en cohorte, couvrant la biostatistique appliquée et l’apprentissage automatique pour la recherche en santé, enseigné en R avec des flux de travail reproductibles sous Quarto. Il comprend deux cours, un cours de base (<strong>BIOSTATR</strong>) et un cours avancé (<strong>ML4HOR</strong>), qui peuvent être suivis indépendamment ou comme un parcours.</p>
 <div class="cell">
 <div id="fig-pathway-fr" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-pathway-fr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-0d3d22244a3b3d5da232" style="width:100%;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-0d3d22244a3b3d5da232">{"x":{"diagram":"\ndigraph mhdsr_pathway_fr {\n\n  graph [layout = dot, rankdir = LR, bgcolor = transparent, nodesep = 0.5, ranksep = 0.8]\n  node [shape = box, style = \"filled,rounded\", fontname = \"Helvetica\", fontsize = 13,\n        color = \"#C2410C\", fillcolor = \"#FFEDD5\", fontcolor = \"#111827\", penwidth = 1.4]\n  edge [color = \"#0284C7\", penwidth = 1.2, arrowsize = 0.8]\n\n  BIOSTATR [label = \"BIOSTATR\\nFondations\"]\n  ML4HOR   [label = \"ML4HOR\\nPrédiction\"]\n  METAR    [label = \"METAR\\nSynthèse\"]\n  AGENTR   [label = \"AGENTR\\nFlux agentiques\"]\n\n  BIOSTATR -> ML4HOR -> METAR\n  METAR -> AGENTR [style = dashed, label = \"bases R\", fontsize = 10, fontcolor = \"#6B7280\"]\n  BIOSTATR -> AGENTR [style = dashed, constraint = false]\n  ML4HOR -> AGENTR [style = dashed, constraint = false]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-71f717c0a03af8f0fc70" style="width:100%;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-71f717c0a03af8f0fc70">{"x":{"diagram":"\ndigraph mhdsr_pathway_fr {\n\n  graph [layout = dot, rankdir = LR, bgcolor = transparent, nodesep = 0.5, ranksep = 0.8]\n  node [shape = box, style = \"filled,rounded\", fontname = \"Helvetica\", fontsize = 13,\n        color = \"#C2410C\", fillcolor = \"#FFEDD5\", fontcolor = \"#111827\", penwidth = 1.4]\n  edge [color = \"#0284C7\", penwidth = 1.2, arrowsize = 0.8]\n\n  BIOSTATR [label = \"BIOSTATR\\nBase : biostatistique appliquée\"]\n  ML4HOR   [label = \"ML4HOR\\nAvancé : apprentissage automatique\"]\n\n  BIOSTATR -> ML4HOR [label = \"bases R\", fontsize = 10, fontcolor = \"#6B7280\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pathway-fr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Le parcours MHDSR
@@ -366,7 +366,7 @@ Figure&nbsp;1: Le parcours MHDSR
 </figure>
 </div>
 </div>
-<p>Chaque cours peut être suivi indépendamment (aucun prérequis n’est obligatoire), mais l’ordre ci-dessus est recommandé pour les participants souhaitant une maîtrise complète.</p>
+<p>Chaque cours peut être suivi indépendamment, mais <strong>ML4HOR</strong> suppose le niveau de R couvert dans <strong>BIOSTATR</strong>.</p>
 <div class="grid">
 <div class="g-col-12 g-col-md-4">
 <p><strong><i class="fa-solid fa-bullseye" aria-label="bullseye"></i> Pourquoi</strong></p>
@@ -374,7 +374,7 @@ Figure&nbsp;1: Le parcours MHDSR
 </div>
 <div class="g-col-12 g-col-md-4">
 <p><strong><i class="fa-solid fa-users" aria-label="users"></i> Pour qui</strong></p>
-<p>Cliniciens, chercheurs, doctorants, professionnels de la santé publique, et analystes souhaitant une introduction rigoureuse et pratique à l’analyse moderne des données de santé avec R. Aucune connaissance statistique avancée n’est requise pour <strong>BIOSTATR</strong> ; les trois autres cours s’appuient dessus mais peuvent être suivis indépendamment.</p>
+<p>Cliniciens, chercheurs, doctorants, professionnels de la santé publique, et analystes souhaitant une introduction rigoureuse et pratique à l’analyse moderne des données de santé avec R. Aucune connaissance statistique avancée n’est requise pour <strong>BIOSTATR</strong> ; <strong>ML4HOR</strong> s’appuie dessus mais peut être suivi indépendamment.</p>
 </div>
 <div class="g-col-12 g-col-md-4">
 <p><strong><i class="fa-solid fa-clipboard-list" aria-label="clipboard-list"></i> Ce que vous recevez</strong></p>
