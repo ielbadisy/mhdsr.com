@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Apprentissage automatique pour les résultats de santé avec R">
+<meta name="description" content="Conducting Meta-Analysis with R">
 
-<title>ML4HOR - Apprentissage automatique pour les résultats de santé avec R – MHDSR</title>
+<title>METAR - Conducting Meta-Analysis with R – MHDSR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,31 +24,31 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../logo_mhdsr.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-5796e3eb9ea01e45975d7246408f328b.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-69c62992ee055750431bd41ebe52e1f4.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-5796e3eb9ea01e45975d7246408f328b.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-c54ea20acdb3d83312da3a55e5f0b347.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-1417fd14ec7de19dcc47c402a57272be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-c54ea20acdb3d83312da3a55e5f0b347.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../logo_mhdsr.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-5796e3eb9ea01e45975d7246408f328b.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-69c62992ee055750431bd41ebe52e1f4.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-5796e3eb9ea01e45975d7246408f328b.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-c54ea20acdb3d83312da3a55e5f0b347.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-1417fd14ec7de19dcc47c402a57272be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c54ea20acdb3d83312da3a55e5f0b347.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,33 +63,33 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Pas de résultats",
-    "search-matching-documents-text": "documents trouvés",
-    "search-copy-link-title": "Copier le lien vers la recherche",
-    "search-hide-matches-text": "Cacher les correspondances additionnelles",
-    "search-more-match-text": "correspondance de plus dans ce document",
-    "search-more-matches-text": "correspondances de plus dans ce document",
-    "search-clear-button-title": "Effacer",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Annuler",
-    "search-submit-button-title": "Envoyer",
-    "search-label": "Recherche"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="../../assets/overrides.css">
-<link rel="stylesheet" href="../../assets/imad/fiche.css">
-<meta property="og:title" content="ML4HOR - Apprentissage automatique pour les résultats de santé avec R">
-<meta property="og:description" content="Apprentissage automatique pour les résultats de santé avec R">
-<meta property="og:image" content="https://mhdsr.com/fr/courses/logo_mhdsr.png">
+<link rel="stylesheet" href="../assets/overrides.css">
+<link rel="stylesheet" href="../assets/imad/fiche.css">
+<meta property="og:title" content="METAR - Conducting Meta-Analysis with R">
+<meta property="og:description" content="Conducting Meta-Analysis with R">
+<meta property="og:image" content="https://mhdsr.com/courses/logo_mhdsr.png">
 <meta property="og:site_name" content="MHDSR">
-<meta name="twitter:title" content="ML4HOR - Apprentissage automatique pour les résultats de santé avec R">
-<meta name="twitter:description" content="Apprentissage automatique pour les résultats de santé avec R">
-<meta name="twitter:image" content="https://mhdsr.com/fr/courses/logo_mhdsr.png">
+<meta name="twitter:title" content="METAR - Conducting Meta-Analysis with R">
+<meta name="twitter:description" content="Conducting Meta-Analysis with R">
+<meta name="twitter:image" content="https://mhdsr.com/courses/logo_mhdsr.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://mhdsr.com/fr/courses/ml4hor.html">
+<link rel="canonical" href="https://mhdsr.com/courses/metar.html">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -261,28 +261,28 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../logo_mhdsr.png" alt="" class="navbar-logo light-content">
-    <img src="../../logo_mhdsr.png" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../logo_mhdsr.png" alt="" class="navbar-logo light-content">
+    <img src="../logo_mhdsr.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Recherche"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../fr/index.html"> 
-<span class="menu-text">Accueil</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../fr/courses/index.html"> 
-<span class="menu-text">Cours</span></a>
+    <a class="nav-link" href="../courses/index.html"> 
+<span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../fr/about.html"> 
-<span class="menu-text">À propos</span></a>
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -291,16 +291,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">elbadisyimad.com</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-franccedilais" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Français</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-english" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">English</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-franccedilais">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-english">    
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../index.html">
  <span class="dropdown-text">English</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../fr/index.html">
+    <a class="dropdown-item" href="../fr/index.html">
  <span class="dropdown-text">Français</span></a>
   </li>  
     </ul>
@@ -308,7 +308,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -324,12 +324,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ML4HOR</h1>
+<h1 class="title">METAR</h1>
 </div>
 
 <div>
   <div class="description">
-    Apprentissage automatique pour les résultats de santé avec R
+    Conducting Meta-Analysis with R
   </div>
 </div>
 
@@ -350,51 +350,49 @@ ul.task-list li input[type="checkbox"] {
 <div class="fiche-header">
 <div>
 <p class="fiche-code">
-ML4HOR
+METAR
 </p>
 <p class="fiche-title">
-Apprentissage automatique pour les résultats de santé avec R<span class="fiche-tag">Prédiction</span>
+Conducting Meta-Analysis with R<span class="fiche-tag">Evidence synthesis</span>
 </p>
 </div>
 <div class="fiche-meta">
-<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 18 heures · 9 séances · 3 semaines</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 28/09 – 16/10/2026</span> <span><i class="fa-solid fa-euro-sign" aria-label="euro-sign"></i> 200€ (2000 MAD)</span></p>
+<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 18 hours · 9 sessions · 3 weeks</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 09/11 – 27/11/2026</span> <span><i class="fa-solid fa-euro-sign" aria-label="euro-sign"></i> 200€ (2000 MAD)</span></p>
 </div>
 </div>
 <div class="fiche-grid">
 <div>
-<section id="description-du-cours" class="level3">
-<h3 class="anchored" data-anchor-id="description-du-cours">Description du cours</h3>
-<p><strong>ML4HOR</strong> est le cours avancé du parcours MHDSR : une introduction pratique à l’apprentissage automatique pour la recherche sur les résultats de santé avec R. Il couvre le flux supervisé complet (des modèles classiques au boosting et aux réseaux de neurones), l’apprentissage non supervisé et le clustering pour le phénotypage des patients, le réglage et la sélection honnêtes des modèles, l’évaluation et la validation, et l’interprétabilité.</p>
-<p>Les dernières séances passent de l’analyse à un pipeline ML reproductible piloté par un agent en ligne de commande, avec des tâches assistées par LLM comme l’extraction structurée et la classification de texte, ainsi que leurs limites et garde-fous.</p>
-<p>Le cours met l’accent sur la validation, la prévention des fuites de données, les mesures de performance appropriées, la calibration, l’interprétabilité et la pertinence clinique.</p>
+<section id="course-description" class="level3">
+<h3 class="anchored" data-anchor-id="course-description">Course description</h3>
+<p><strong>METAR</strong> is a practical, methodologically rigorous introduction to conducting meta-analysis with R. It covers the complete evidence-synthesis workflow: formulating a review question, building a search strategy, developing an analysis-ready extraction table, computing effect sizes, fitting fixed-effect and random-effects models, assessing heterogeneity, producing forest plots, exploring moderators, assessing publication bias, rating certainty of evidence, and preparing a reproducible Quarto report.</p>
+<p>The course emphasizes transparent reporting, correct interpretation of pooled estimates, reproducibility, and publication-quality tables and figures.</p>
 </section>
-<section id="objectifs-dapprentissage" class="level3">
-<h3 class="anchored" data-anchor-id="objectifs-dapprentissage">Objectifs d’apprentissage</h3>
-<p>À l’issue de <strong>ML4HOR</strong>, les participants seront capables de :</p>
+<section id="learning-objectives" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h3>
+<p>By the end of <strong>METAR</strong>, participants will be able to:</p>
 <ol type="1">
-<li>formuler des problèmes supervisés et non supervisés en recherche sur les résultats de santé ;</li>
-<li>préparer des jeux de données tabulaires de santé et éviter les fuites de données ;</li>
-<li>appliquer le clustering au phénotypage des patients et à la découverte de sous-groupes ;</li>
-<li>ajuster régression pénalisée, ensembles d’arbres, boosting et perceptrons multicouches ;</li>
-<li>régler et sélectionner des modèles par validation croisée imbriquée et comparaison équitable ;</li>
-<li>évaluer discrimination, calibration et utilité clinique, et choisir des seuils ;</li>
-<li>valider des modèles en interne et en externe ;</li>
-<li>interpréter des modèles avec permutation importance, PDP/ICE et SHAP ;</li>
-<li>piloter un pipeline ML reproductible avec un agent en ligne de commande sous contrôle de version ;</li>
-<li>utiliser des LLM pour l’extraction structurée et la classification de texte, et en évaluer les sorties.</li>
+<li>formulate a meta-analysis question using the PICO framework and write a review protocol;</li>
+<li>build and document a reproducible search and study-selection workflow;</li>
+<li>structure extracted study data and risk-of-bias assessments for analysis in R;</li>
+<li>compute effect sizes for binary and continuous outcomes;</li>
+<li>fit fixed-effect and random-effects meta-analysis models with prediction intervals;</li>
+<li>quantify and explore heterogeneity using Q, I², and tau²;</li>
+<li>produce publication-quality forest plots and interpret pooled estimates;</li>
+<li>conduct subgroup analysis and meta-regression, and assess publication bias;</li>
+<li>rate certainty of evidence with GRADE and produce a reproducible Quarto report.</li>
 </ol>
 </section>
 </div>
 <div>
-<section id="calendrier" class="level3">
-<h3 class="anchored" data-anchor-id="calendrier">Calendrier</h3>
+<section id="schedule" class="level3">
+<h3 class="anchored" data-anchor-id="schedule">Schedule</h3>
 <table class="fiche-schedule">
 <tbody><tr>
 <th>
-N°
+No.
 </th>
 <th>
-Séance
+Session
 </th>
 </tr>
 <tr>
@@ -402,7 +400,7 @@ Séance
 1
 </td>
 <td>
-<strong>Fondamentaux du machine learning</strong> : supervisé vs non supervisé, biais-variance, train/test, validation croisée, rééchantillonnage
+<strong>Systematic reviews and the review protocol</strong>: evidence hierarchy, PICO, PRISMA workflow, protocol, eligibility criteria
 </td>
 </tr>
 <tr>
@@ -410,7 +408,7 @@ Séance
 2
 </td>
 <td>
-<strong>Préparation des données</strong> : prétraitement, données manquantes, encodage, standardisation, feature engineering, fuite de données
+<strong>Search strategy and study selection</strong>: databases, search strings, deduplication, screening, PRISMA flow diagram
 </td>
 </tr>
 <tr>
@@ -418,7 +416,7 @@ Séance
 3
 </td>
 <td>
-<strong>Apprentissage non supervisé et clustering</strong> : distances, k-means, clustering hiérarchique, choix de K, silhouette, stabilité, PCA pour exploration et visualisation
+<strong>Data extraction and risk of bias</strong>: extraction tables, risk-of-bias tools, <code>robvis</code>, importing and cleaning data in R, unit harmonization
 </td>
 </tr>
 <tr>
@@ -426,7 +424,7 @@ Séance
 4
 </td>
 <td>
-<strong>Modèles supervisés classiques</strong> : régression pénalisée, arbres, forêts aléatoires
+<strong>Effect sizes for binary and continuous outcomes</strong>: odds ratio, risk ratio, risk difference, mean difference, standardized mean difference, Hedges’ g
 </td>
 </tr>
 <tr>
@@ -434,7 +432,7 @@ Séance
 5
 </td>
 <td>
-<strong>Boosting et réseaux de neurones</strong> : gradient boosting, MLP, régularisation, early stopping, comparaison de modèles
+<strong>Fixed-effect and random-effects models</strong>: inverse-variance weighting, common-effect model, DerSimonian-Laird, REML, Paule-Mandel, prediction intervals
 </td>
 </tr>
 <tr>
@@ -442,7 +440,7 @@ Séance
 6
 </td>
 <td>
-<strong>Réglage et sélection des modèles</strong> : tuning, grille/aléatoire, validation croisée imbriquée, sur-apprentissage
+<strong>Heterogeneity and sensitivity analysis</strong>: Cochran’s Q, I², tau², heterogeneity CIs, Baujat plots, leave-one-out, influence diagnostics
 </td>
 </tr>
 <tr>
@@ -450,7 +448,7 @@ Séance
 7
 </td>
 <td>
-<strong>Évaluation et validation</strong> : AUC, sensibilité/spécificité, PPV/NPV, F1, calibration, Brier, seuils, validation interne/externe
+<strong>Forest plots and result interpretation</strong>: forest plot anatomy, study weights, summary diamond, prediction interval, subgroup forest plots
 </td>
 </tr>
 <tr>
@@ -458,7 +456,7 @@ Séance
 8
 </td>
 <td>
-<strong>Interprétabilité</strong> : importance des variables, permutation, PDP/ICE, SHAP, interprétation locale/globale
+<strong>Subgroup analysis, meta-regression, and publication bias</strong>: bubble plots, funnel plots, Egger/Begg/Peters tests, trim-and-fill
 </td>
 </tr>
 <tr>
@@ -466,56 +464,50 @@ Séance
 9
 </td>
 <td>
-<strong>Agents, LLM et pipeline ML reproductible</strong> : agent CLI, génération/exécution/revue du code, versionnage, extraction structurée, classification par LLM, limites et garde-fous
+<strong>Certainty of evidence and reproducible reporting</strong>: GRADE, Quarto report, PRISMA diagram, risk-of-bias plot, effect-size table, final project
 </td>
 </tr>
 </tbody></table>
 </section>
-<section id="informations-pratiques" class="level3">
-<h3 class="anchored" data-anchor-id="informations-pratiques">Informations pratiques</h3>
+<section id="practical-information" class="level3">
+<h3 class="anchored" data-anchor-id="practical-information">Practical information</h3>
 <div class="fiche-info">
 <dl>
 <dt>
-Public
+Audience
 </dt>
 <dd>
-Chercheurs, doctorants, cliniciens, professionnels de la santé publique, analystes de données
+Clinicians, researchers, PhD students, public health professionals, evidence synthesis analysts
 </dd>
 <dt>
-Prérequis
+Prerequisites
 </dt>
 <dd>
-R de base et culture statistique, comme couvert dans <a href="../../fr/courses/biostatr.html"><strong>BIOSTATR</strong></a>
+Basic R recommended, as covered in <a href="../courses/biostatr.html"><strong>BIOSTATR</strong></a>
 </dd>
 <dt>
 Format
 </dt>
 <dd>
-Séances en direct, diapositives, notebooks, jeux de données, exercices
+Live sessions, slides, notebooks, datasets, exercises
 </dd>
 <dt>
-Horaire
+Schedule
 </dt>
 <dd>
-Lun/mer/ven 18h00–20h00 (heure du Maroc) · 3 semaines
+Mon/Wed/Fri 18h00–20h00 (Morocco time) · 3 weeks
 </dd>
 <dt>
-Outils
+Tools
 </dt>
 <dd>
 R, RStudio, Quarto
 </dd>
 <dt>
-Évaluation
+Assessment
 </dt>
 <dd>
-Mini-projet Quarto reproductible
-</dd>
-<dt>
-Étape suivante
-</dt>
-<dd>
-<a href="../../fr/courses/metar.html"><strong>METAR</strong></a> – Conduite d’une méta-analyse avec R
+Reproducible Quarto mini-project
 </dd>
 </dl>
 </div>
@@ -523,7 +515,7 @@ Mini-projet Quarto reproductible
 </div>
 </div>
 <div class="fiche-footer">
-<p>MHDSR · Formateur : Imad El Badisy, PhD · <a href="mailto:elbadisyimad@gmail.com">elbadisyimad@gmail.com</a> <span class="no-print">· <a href="mailto:elbadisyimad@gmail.com?subject=ML4HOR%20-%20Inscription">S’inscrire →</a> · <a href="../../fr/courses/index.html">← Retour au catalogue</a></span></p>
+<p>MHDSR · Instructor: Imad El Badisy, PhD · <a href="mailto:elbadisyimad@gmail.com">elbadisyimad@gmail.com</a> <span class="no-print">· <a href="mailto:elbadisyimad@gmail.com?subject=METAR%20-%20Registration">Register →</a> · <a href="../courses/index.html">← Back to catalogue</a></span></p>
 </div>
 </div>
 
@@ -568,12 +560,12 @@ Mini-projet Quarto reproductible
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copié");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copié");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -947,7 +939,7 @@ Mini-projet Quarto reproductible
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 MHDSR · Méthodes en science des données de santé avec R</p>
+<p>© 2026 MHDSR · Methods in Health Data Science with R</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -961,5 +953,5 @@ Mini-projet Quarto reproductible
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
