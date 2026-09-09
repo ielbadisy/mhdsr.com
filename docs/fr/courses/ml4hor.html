@@ -357,7 +357,7 @@ Apprentissage automatique pour les résultats de santé avec R<span class="fiche
 </p>
 </div>
 <div class="fiche-meta">
-<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 18 heures · 9 séances · 3 semaines</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 28/09 – 16/10/2026</span> <span><i class="fa-solid fa-euro-sign" aria-label="euro-sign"></i> 200€ (2000 MAD)</span></p>
+<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 12 heures · 6 séances · 2 semaines</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 28/09 – 09/10/2026</span> <span><i class="fa-solid fa-euro-sign" aria-label="euro-sign"></i> 150€ (1500 MAD)</span></p>
 </div>
 </div>
 <div class="fiche-grid">
@@ -365,7 +365,7 @@ Apprentissage automatique pour les résultats de santé avec R<span class="fiche
 <section id="description-du-cours" class="level3">
 <h3 class="anchored" data-anchor-id="description-du-cours">Description du cours</h3>
 <p><strong>ML4HOR</strong> est le cours avancé du parcours MHDSR : une introduction pratique à l’apprentissage automatique pour la recherche sur les résultats de santé avec R. Il couvre le flux supervisé complet (des modèles classiques au boosting et aux réseaux de neurones), l’apprentissage non supervisé et le clustering pour le phénotypage des patients, le réglage et la sélection honnêtes des modèles, l’évaluation et la validation, et l’interprétabilité.</p>
-<p>Les dernières séances passent de l’analyse à un pipeline ML reproductible piloté par un agent en ligne de commande, avec des tâches assistées par LLM comme l’extraction structurée et la classification de texte, ainsi que leurs limites et garde-fous.</p>
+<p>Les flux agentiques et assistés par IA – piloter un pipeline ML reproductible avec un agent de codage en ligne de commande, et l’extraction et la classification assistées par LLM – sont traités dans le cours complémentaire <a href="../../fr/courses/aidsr.html"><strong>AIDSR</strong></a>.</p>
 <p>Le cours met l’accent sur la validation, la prévention des fuites de données, les mesures de performance appropriées, la calibration, l’interprétabilité et la pertinence clinique.</p>
 </section>
 <section id="objectifs-dapprentissage" class="level3">
@@ -379,9 +379,7 @@ Apprentissage automatique pour les résultats de santé avec R<span class="fiche
 <li>régler et sélectionner des modèles par validation croisée imbriquée et comparaison équitable ;</li>
 <li>évaluer discrimination, calibration et utilité clinique, et choisir des seuils ;</li>
 <li>valider des modèles en interne et en externe ;</li>
-<li>interpréter des modèles avec permutation importance, PDP/ICE et SHAP ;</li>
-<li>piloter un pipeline ML reproductible avec un agent en ligne de commande sous contrôle de version ;</li>
-<li>utiliser des LLM pour l’extraction structurée et la classification de texte, et en évaluer les sorties.</li>
+<li>interpréter des modèles avec permutation importance, PDP/ICE et SHAP.</li>
 </ol>
 </section>
 </div>
@@ -426,7 +424,7 @@ Séance
 4
 </td>
 <td>
-<strong>Modèles supervisés classiques</strong> : régression pénalisée, arbres, forêts aléatoires
+<strong>Modèles supervisés</strong> : régression pénalisée, arbres de décision, forêts aléatoires, gradient boosting, perceptron multicouche, régularisation, early stopping, comparaison de modèles
 </td>
 </tr>
 <tr>
@@ -434,7 +432,7 @@ Séance
 5
 </td>
 <td>
-<strong>Boosting et réseaux de neurones</strong> : gradient boosting, MLP, régularisation, early stopping, comparaison de modèles
+<strong>Réglage, sélection et validation des modèles</strong> : hyperparamètres, recherche par grille/aléatoire, validation croisée imbriquée, sur-apprentissage, AUC, sensibilité/spécificité, PPV/NPV, F1, calibration, Brier, seuils, validation interne/externe
 </td>
 </tr>
 <tr>
@@ -442,31 +440,7 @@ Séance
 6
 </td>
 <td>
-<strong>Réglage et sélection des modèles</strong> : tuning, grille/aléatoire, validation croisée imbriquée, sur-apprentissage
-</td>
-</tr>
-<tr>
-<td>
-7
-</td>
-<td>
-<strong>Évaluation et validation</strong> : AUC, sensibilité/spécificité, PPV/NPV, F1, calibration, Brier, seuils, validation interne/externe
-</td>
-</tr>
-<tr>
-<td>
-8
-</td>
-<td>
-<strong>Interprétabilité</strong> : importance des variables, permutation, PDP/ICE, SHAP, interprétation locale/globale
-</td>
-</tr>
-<tr>
-<td>
-9
-</td>
-<td>
-<strong>Agents, LLM et pipeline ML reproductible</strong> : agent CLI, génération/exécution/revue du code, versionnage, extraction structurée, classification par LLM, limites et garde-fous
+<strong>Interprétabilité et utilité clinique</strong> : importance des variables, permutation, PDP/ICE, SHAP, interprétation locale/globale, seuils de décision en contexte
 </td>
 </tr>
 </tbody></table>
@@ -497,7 +471,7 @@ Séances en direct, diapositives, notebooks, jeux de données, exercices
 Horaire
 </dt>
 <dd>
-Lun/mer/ven 18h00–20h00 (heure du Maroc) · 3 semaines
+Lun/mer/ven 18h00–20h00 (heure du Maroc) · 2 semaines
 </dd>
 <dt>
 Outils
@@ -515,7 +489,7 @@ Mini-projet Quarto reproductible
 Étape suivante
 </dt>
 <dd>
-<a href="../../fr/courses/metar.html"><strong>METAR</strong></a> – Conduite d’une méta-analyse avec R
+<a href="../../fr/courses/aidsr.html"><strong>AIDSR</strong></a> – Science des données agentique et assistée par IA avec R, ou <a href="../../fr/courses/metar.html"><strong>METAR</strong></a> – Conduite d’une méta-analyse avec R
 </dd>
 </dl>
 </div>

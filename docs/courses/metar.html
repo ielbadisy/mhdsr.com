@@ -357,7 +357,7 @@ Conducting Meta-Analysis with R<span class="fiche-tag">Evidence synthesis</span>
 </p>
 </div>
 <div class="fiche-meta">
-<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 18 hours · 9 sessions · 3 weeks</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 09/11 – 27/11/2026</span> <span><i class="fa-solid fa-euro-sign" aria-label="euro-sign"></i> 200€ (2000 MAD)</span></p>
+<p><span><i class="fa-solid fa-clock" aria-label="clock"></i> 12 hours · 6 sessions · 2 weeks</span> <span><i class="fa-solid fa-calendar" aria-label="calendar"></i> 09/11 – 20/11/2026</span> <span><i class="fa-solid fa-euro-sign" aria-label="euro-sign"></i> 150€ (1500 MAD)</span></p>
 </div>
 </div>
 <div class="fiche-grid">
@@ -376,10 +376,8 @@ Conducting Meta-Analysis with R<span class="fiche-tag">Evidence synthesis</span>
 <li>structure extracted study data and risk-of-bias assessments for analysis in R;</li>
 <li>compute effect sizes for binary and continuous outcomes;</li>
 <li>fit fixed-effect and random-effects meta-analysis models with prediction intervals;</li>
-<li>quantify and explore heterogeneity using Q, I², and tau²;</li>
-<li>produce publication-quality forest plots and interpret pooled estimates;</li>
-<li>conduct subgroup analysis and meta-regression, and assess publication bias;</li>
-<li>rate certainty of evidence with GRADE and produce a reproducible Quarto report.</li>
+<li>quantify heterogeneity, run sensitivity analyses, and produce publication-quality forest plots;</li>
+<li>conduct subgroup analysis and meta-regression, assess publication bias, rate certainty of evidence with GRADE, and produce a reproducible Quarto report.</li>
 </ol>
 </section>
 </div>
@@ -400,7 +398,7 @@ Session
 1
 </td>
 <td>
-<strong>Systematic reviews and the review protocol</strong>: evidence hierarchy, PICO, PRISMA workflow, protocol, eligibility criteria
+<strong>Review protocol and search strategy</strong>: evidence hierarchy, PICO, PRISMA workflow, protocol, eligibility criteria, databases, search strings, deduplication, screening, PRISMA flow diagram
 </td>
 </tr>
 <tr>
@@ -408,7 +406,7 @@ Session
 2
 </td>
 <td>
-<strong>Search strategy and study selection</strong>: databases, search strings, deduplication, screening, PRISMA flow diagram
+<strong>Data extraction and risk of bias</strong>: extraction tables, risk-of-bias tools, <code>robvis</code>, importing and cleaning data in R, unit harmonization, consistency checks
 </td>
 </tr>
 <tr>
@@ -416,7 +414,7 @@ Session
 3
 </td>
 <td>
-<strong>Data extraction and risk of bias</strong>: extraction tables, risk-of-bias tools, <code>robvis</code>, importing and cleaning data in R, unit harmonization
+<strong>Effect sizes for binary and continuous outcomes</strong>: odds ratio, risk ratio, risk difference, mean difference, standardized mean difference, Hedges’ g
 </td>
 </tr>
 <tr>
@@ -424,7 +422,7 @@ Session
 4
 </td>
 <td>
-<strong>Effect sizes for binary and continuous outcomes</strong>: odds ratio, risk ratio, risk difference, mean difference, standardized mean difference, Hedges’ g
+<strong>Fixed-effect and random-effects models</strong>: inverse-variance weighting, common-effect model, DerSimonian-Laird, REML, Paule-Mandel, prediction intervals
 </td>
 </tr>
 <tr>
@@ -432,7 +430,7 @@ Session
 5
 </td>
 <td>
-<strong>Fixed-effect and random-effects models</strong>: inverse-variance weighting, common-effect model, DerSimonian-Laird, REML, Paule-Mandel, prediction intervals
+<strong>Heterogeneity, sensitivity analysis and forest plots</strong>: Cochran’s Q, I², tau², heterogeneity CIs, Baujat plots, leave-one-out, influence diagnostics, forest plot anatomy, study weights, summary diamond, subgroup forest plots
 </td>
 </tr>
 <tr>
@@ -440,31 +438,7 @@ Session
 6
 </td>
 <td>
-<strong>Heterogeneity and sensitivity analysis</strong>: Cochran’s Q, I², tau², heterogeneity CIs, Baujat plots, leave-one-out, influence diagnostics
-</td>
-</tr>
-<tr>
-<td>
-7
-</td>
-<td>
-<strong>Forest plots and result interpretation</strong>: forest plot anatomy, study weights, summary diamond, prediction interval, subgroup forest plots
-</td>
-</tr>
-<tr>
-<td>
-8
-</td>
-<td>
-<strong>Subgroup analysis, meta-regression, and publication bias</strong>: bubble plots, funnel plots, Egger/Begg/Peters tests, trim-and-fill
-</td>
-</tr>
-<tr>
-<td>
-9
-</td>
-<td>
-<strong>Certainty of evidence and reproducible reporting</strong>: GRADE, Quarto report, PRISMA diagram, risk-of-bias plot, effect-size table, final project
+<strong>Meta-regression, publication bias, GRADE and reporting</strong>: bubble plots, funnel plots, Egger/Begg/Peters tests, trim-and-fill, GRADE, reproducible Quarto report, PRISMA diagram, effect-size table, final project
 </td>
 </tr>
 </tbody></table>
@@ -495,7 +469,7 @@ Live sessions, slides, notebooks, datasets, exercises
 Schedule
 </dt>
 <dd>
-Mon/Wed/Fri 18h00–20h00 (Morocco time) · 3 weeks
+Mon/Wed/Fri 18h00–20h00 (Morocco time) · 2 weeks
 </dd>
 <dt>
 Tools
