@@ -2,30 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mhdsr.com/about.html</loc>
-    <lastmod>2026-09-09T09:16:08.308Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mhdsr.com/courses/aidsr.html</loc>
-    <lastmod>2026-09-09T09:03:50.727Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mhdsr.com/courses/biostatr.html</loc>
-    <lastmod>2026-09-09T09:02:29.026Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mhdsr.com/index.html</loc>
-    <lastmod>2026-09-09T09:14:58.067Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mhdsr.com/courses/index.html</loc>
-    <lastmod>2026-09-09T09:01:57.142Z</lastmod>
+    <lastmod>2026-09-27T19:59:49.615Z</lastmod>
   </url>
   <url>
     <loc>https://mhdsr.com/courses/ml4hor.html</loc>
-    <lastmod>2026-09-09T09:03:01.539Z</lastmod>
+    <lastmod>2026-09-27T19:59:20.228Z</lastmod>
   </url>
   <url>
-    <loc>https://mhdsr.com/courses/metar.html</loc>
-    <lastmod>2026-09-09T09:03:31.642Z</lastmod>
+    <loc>https://mhdsr.com/courses/index.html</loc>
+    <lastmod>2026-09-27T19:59:49.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mhdsr.com/index.html</loc>
+    <lastmod>2026-09-27T19:59:49.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mhdsr.com/courses/biostatr.html</loc>
+    <lastmod>2026-09-27T19:59:20.228Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mhdsr.com/courses/aidsr.html</loc>
+    <lastmod>2026-09-27T19:59:49.614Z</lastmod>
   </url>
 </urlset>
